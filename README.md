@@ -43,3 +43,7 @@ The short-read assembly graphs will be processed, using both the initial graph a
 - <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET]**
 
 Moreover, the plasmids predicted by each method should be typed using MOB-typer **[ANIKET]**.
+
+The results will be evaluated using <a href="https://github.com/acme92/PlasEval">PlasEval</a>.
+
+**TO DO [ANIKET]**: PlasEval should be updated to be a repo on its own, with proper documentation and high-quality code.  The precision/recall/F1 statistics should come in two versions, one in terms of the number of contigs (with a default parameter to specify short contigs to discard?) and one in terms of number of base pairs.
