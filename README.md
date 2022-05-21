@@ -45,7 +45,7 @@ and four or five binning tools:
 - <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY]**,
 - <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET]** --PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
 - <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET]**.
-- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP</a> **[ANIKET]** (using different configurations with plasmid scores).
+- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (?)</a> **[ANIKET]** (using different configurations with plasmid scores).
 
 Moreover, the plasmids predicted by each method should be typed using MOB-typer **[ANIKET]**.
 
