@@ -47,3 +47,9 @@ Moreover, the plasmids predicted by each method should be typed using MOB-typer 
 The results will be evaluated using <a href="https://github.com/acme92/PlasEval">PlasEval</a>.
 
 **TO DO [ANIKET]**: PlasEval should be updated to be a repo on its own, with proper documentation and high-quality code.  The precision/recall/F1 statistics should come in two versions, one in terms of the number of contigs (with a default parameter to specify short contigs to discard?) and one in terms of number of base pairs.
+
+## Remarks
+
+The script to reduce the assembly graph should have a companion script to put back the removed contigs into the plasmid bins and the corresponding FASTA files.  
+
+In order to ease analysis, we should decide of a format for plasmid bins and contig scores that would be used for input files of the analysis, and so each method should come with a script that reformats its output.
