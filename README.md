@@ -39,6 +39,7 @@ The short-read assembly graphs will be processed, using both the initial graph a
 - <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC]**,
 - <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC]**,
 - <a href="">PlasForest</a>,  
+
 and four or five binning tools:  
 - <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC]**,
 - <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY]**,
