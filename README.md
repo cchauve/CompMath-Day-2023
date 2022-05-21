@@ -38,8 +38,8 @@ For each short-reads assembly, we will consider two versions of the assembly gra
 The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three classification tools:
 - <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC]**,
 - <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC]**,
-- <a href="">PlasForest</a>,
-and four or five binning tools:
+- <a href="">PlasForest</a>,  
+and four or five binning tools:  
 - <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC]**,
 - <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY]**,
 - <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET]** --PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
