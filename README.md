@@ -35,10 +35,11 @@ For each short-reads assembly, we will consider two versions of the assembly gra
 
 ## Experiments
 
-The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three classification tools:
+The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three or four classification tools:
 - <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC]**,
 - <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC]**,
-- <a href="">PlasForest</a>,  
+- <a href="https://github.com/Shamir-Lab/3CAC">3CAC (?)</a> **[CEDRIC]**,
+- <a href="">PlasForest</a> **[CEDRIC]**,  
 
 and four or five binning tools:  
 - <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC]**,
