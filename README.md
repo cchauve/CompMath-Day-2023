@@ -36,17 +36,17 @@ For each short-reads assembly, we will consider two versions of the assembly gra
 ## Experiments
 
 The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three or four classification tools:
-- <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC]**,
-- <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC]**,
-- <a href="https://github.com/Shamir-Lab/3CAC">3CAC (?)</a> **[CEDRIC]**,
+- <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC, installed]**,
+- <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC, installed]**,
+- <a href="https://github.com/Shamir-Lab/3CAC">3CAC (?, likely not as it also focus on phages)</a> **[CEDRIC]**,
 - <a href="https://github.com/leaemiliepradier/PlasForest">PlasForest</a> **[CEDRIC]**,  
 
 and four or five binning tools:  
-- <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC]**,
-- <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY]**,
+- <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC, installed]**,
+- <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY/ANIKET, to install]**,
 - <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET]** --PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
-- <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET]**.
-- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (?)</a> **[ANIKET]** (using different configurations with plasmid scores).
+- <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET, to install]**.
+- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (?)</a> **[ANIKET, installed]** (using different configurations with plasmid scores).
 
 Moreover, the plasmids predicted by each method should be typed using MOB-typer **[ANIKET]**.
 
@@ -55,7 +55,5 @@ The results will be evaluated using <a href="https://github.com/acme92/PlasEval"
 **TO DO [ANIKET]**: PlasEval should be updated to be a repo on its own, with proper documentation and high-quality code.  The precision/recall/F1 statistics should come in two versions, one in terms of the number of contigs (with a default parameter to specify short contigs to discard?) and one in terms of number of base pairs.
 
 ## Remarks
-
-The script to reduce the assembly graph should have a companion script to put back the removed contigs into the plasmid bins and the corresponding FASTA files.  
 
 In order to ease analysis, we should decide of a format for plasmid bins and contig scores that would be used for input files of the analysis, and so each method should come with a script that reformats its output.
