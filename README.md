@@ -39,7 +39,7 @@ The short-read assembly graphs will be processed, using both the initial graph a
 - <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC, installed]**,
 - <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC, installed]**,
 - <a href="https://github.com/Shamir-Lab/3CAC">3CAC (?, likely not as it also focus on phages)</a> **[CEDRIC]**,
-- <a href="https://github.com/leaemiliepradier/PlasForest">PlasForest</a> **[CEDRIC]**,  
+- <a href="https://github.com/leaemiliepradier/PlasForest">PlasForest</a> **[CEDRIC, installed]**,  
 
 and four or five binning tools:  
 - <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC, installed]**,
