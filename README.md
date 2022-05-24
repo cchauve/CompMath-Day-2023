@@ -31,7 +31,7 @@ From the contigs features, we will determine which ones are plasmid, which ones 
 
 For each short-reads assembly, we will consider two versions of the assembly graph: a full graph and a reduced graph where contigs whose length is not greater than a given length threshold (default 100bp) are removed and every pair of their neighbours is connected through an edge. Then we should be able to insert back the discarded contigs into predicted plasmids.
 
-**TO DO [ANIKET]**:  Complete the script [scripts/GFA_utils.py](scripts/GFA_utils.py) that does this reduction/expansion. 
+**TO DO [ANIKET]**:  Complete the script [scripts/GFA_utils.py](scripts/GFA_utils.py) that does this reduction/expansion. There is quite some planning to do for these scripts as there are non-trivial decisions to make as to how we will implement these steps, the internal data structures and so on.
 
 ## Experiments
 
