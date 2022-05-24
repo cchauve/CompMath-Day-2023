@@ -4,3 +4,5 @@
 
 
 `install_hyasp.sh`: installation of HyAsP in a virtual environment env_hyasp.
+
+`install_plasgraph.sh`: installation of plASgraph together with a virtual environment env_plasgraph
