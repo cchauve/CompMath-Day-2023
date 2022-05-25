@@ -1,0 +1,158 @@
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting networkx>=2.6.3
+  Using cached networkx-2.8.2-py3-none-any.whl (2.0 MB)
+Installing collected packages: networkx
+Successfully installed networkx-2.8.2
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/pandas-1.4.1+computecanada-cp38-cp38-linux_x86_64.whl
+Requirement already satisfied: numpy>=1.21 in /home/chauvec/.local/lib/python3.8/site-packages (from pandas>=1.3.5) (1.22.2+computecanada)
+Requirement already satisfied: python-dateutil>=2.8.1 in /home/chauvec/.local/lib/python3.8/site-packages (from pandas>=1.3.5) (2.8.2+computecanada)
+Requirement already satisfied: pytz>=2020.1 in /home/chauvec/.local/lib/python3.8/site-packages (from pandas>=1.3.5) (2022.1+computecanada)
+Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.8.10/lib/python3.8/site-packages (from python-dateutil>=2.8.1->pandas>=1.3.5) (1.14.0)
+Installing collected packages: pandas
+  Attempting uninstall: pandas
+    Found existing installation: pandas 1.0.3+computecanada
+    Not uninstalling pandas at /home/chauvec/.local/lib/python3.8/site-packages, outside environment /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph
+    Can't uninstall 'pandas'. No files were found to uninstall.
+Successfully installed pandas-1.4.1+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: numpy>=1.21.5 in /home/chauvec/.local/lib/python3.8/site-packages (1.22.2+computecanada)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scikit_learn-1.0.2+computecanada-cp38-cp38-linux_x86_64.whl
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Requirement already satisfied: numpy>=1.21 in /home/chauvec/.local/lib/python3.8/site-packages (from scikit-learn>=0.23.1) (1.22.2+computecanada)
+Requirement already satisfied: scipy>=1.1.0 in /home/chauvec/.local/lib/python3.8/site-packages (from scikit-learn>=0.23.1) (1.8.0+computecanada)
+Requirement already satisfied: joblib>=0.11 in /home/chauvec/.local/lib/python3.8/site-packages/joblib-0.14.0-py3.8.egg (from scikit-learn>=0.23.1) (0.14.0)
+Installing collected packages: threadpoolctl, scikit-learn
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 0.21.3
+    Not uninstalling scikit-learn at /home/chauvec/.local/lib/python3.8/site-packages/scikit_learn-0.21.3-py3.8-linux-x86_64.egg, outside environment /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph
+    Can't uninstall 'scikit-learn'. No files were found to uninstall.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+plasclass-dpellow 0.1 requires numpy==1.17.4, but you have numpy 1.22.2+computecanada which is incompatible.
+plasclass-dpellow 0.1 requires scikit-learn==0.21.3, but you have scikit-learn 1.0.2+computecanada which is incompatible.
+plasclass-dpellow 0.1 requires scipy==1.3.2, but you have scipy 1.8.0+computecanada which is incompatible.
+Successfully installed scikit-learn-1.0.2+computecanada threadpoolctl-3.1.0
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: biopython>=1.79 in /home/chauvec/.local/lib/python3.8/site-packages (1.79+computecanada)
+Requirement already satisfied: numpy in /home/chauvec/.local/lib/python3.8/site-packages (from biopython>=1.79) (1.22.2+computecanada)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: matplotlib>=3.5.1 in /home/chauvec/.local/lib/python3.8/site-packages (3.5.1+computecanada)
+Requirement already satisfied: python-dateutil>=2.7 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (2.8.2+computecanada)
+Requirement already satisfied: fonttools>=4.22.0 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (4.33.3+computecanada)
+Requirement already satisfied: numpy>=1.21 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (1.22.2+computecanada)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (1.3.2+computecanada)
+Requirement already satisfied: pillow>=6.2.0 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (9.0.1+computecanada)
+Requirement already satisfied: cycler>=0.10 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (0.11.0+computecanada)
+Requirement already satisfied: packaging>=20.0 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (21.3+computecanada)
+Requirement already satisfied: pyparsing>=2.2.1 in /home/chauvec/.local/lib/python3.8/site-packages (from matplotlib>=3.5.1) (3.0.9)
+Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.8.10/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib>=3.5.1) (1.14.0)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/tensorflow-2.8.0+computecanada-cp38-cp38-linux_x86_64.whl
+Requirement already satisfied: six>=1.12.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.8.10/lib/python3.8/site-packages (from tensorflow>=2.8) (1.14.0)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorboard-2.8.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/libclang-12.0.0+computecanada-py2.py3-none-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/termcolor-1.1.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/gast-0.5.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google_pasta-0.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/wrapt-1.13.3+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorflow_io_gcs_filesystem-0.23.1+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/protobuf-3.19.4+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/flatbuffers-20190709135844+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/absl_py-1.0.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.2.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tf_estimator_nightly-2.8.0.dev2021122109+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/h5py-3.6.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Keras_Preprocessing-1.1.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/keras-2.8.0+computecanada-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.8) (56.0.0)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/opt_einsum-3.3.0+computecanada-py3-none-any.whl
+Requirement already satisfied: numpy>=1.20 in /home/chauvec/.local/lib/python3.8/site-packages (from tensorflow>=2.8) (1.22.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/grpcio-1.44.0+computecanada-cp38-cp38-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/astunparse-1.6.3+computecanada-py2.py3-none-any.whl
+Requirement already satisfied: wheel<1.0,>=0.23.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.8.10/lib/python3.8/site-packages (from astunparse>=1.6.0->tensorflow>=2.8) (0.34.2)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorboard_plugin_wit-1.8.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Markdown-3.3.6+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Werkzeug-2.1.2+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google_auth_oauthlib-0.4.6+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests-2.27.1+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tensorboard_data_server-0.6.1+computecanada-py3-none-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/google_auth-2.3.3+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rsa-4.8+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cachetools-4.2.4+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyasn1_modules-0.2.8+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests_oauthlib-1.3.0+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_metadata-4.11.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.8.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyasn1-0.4.8+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/certifi-2021.10.8+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/urllib3-1.26.9+computecanada-py2.py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/idna-3.3+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/charset_normalizer-2.0.12+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/oauthlib-3.1.1+computecanada-py2.py3-none-any.whl
+Installing collected packages: urllib3, pyasn1, idna, charset-normalizer, certifi, zipp, rsa, requests, pyasn1-modules, oauthlib, cachetools, requests-oauthlib, importlib-metadata, google-auth, werkzeug, tensorboard-plugin-wit, tensorboard-data-server, protobuf, markdown, grpcio, google-auth-oauthlib, absl-py, wrapt, typing-extensions, tf-estimator-nightly, termcolor, tensorflow-io-gcs-filesystem, tensorboard, opt-einsum, libclang, keras-preprocessing, keras, h5py, google-pasta, gast, flatbuffers, astunparse, tensorflow
+Successfully installed absl-py-1.0.0+computecanada astunparse-1.6.3+computecanada cachetools-4.2.4+computecanada certifi-2021.10.8+computecanada charset-normalizer-2.0.12+computecanada flatbuffers-20190709135844+computecanada gast-0.5.3+computecanada google-auth-2.3.3+computecanada google-auth-oauthlib-0.4.6+computecanada google-pasta-0.2.0+computecanada grpcio-1.44.0+computecanada h5py-3.6.0+computecanada idna-3.3+computecanada importlib-metadata-4.11.3+computecanada keras-2.8.0+computecanada keras-preprocessing-1.1.2+computecanada libclang-12.0.0+computecanada markdown-3.3.6+computecanada oauthlib-3.1.1+computecanada opt-einsum-3.3.0+computecanada protobuf-3.19.4+computecanada pyasn1-0.4.8+computecanada pyasn1-modules-0.2.8+computecanada requests-2.27.1+computecanada requests-oauthlib-1.3.0+computecanada rsa-4.8+computecanada tensorboard-2.8.0+computecanada tensorboard-data-server-0.6.1+computecanada tensorboard-plugin-wit-1.8.0+computecanada tensorflow-2.8.0+computecanada tensorflow-io-gcs-filesystem-0.23.1+computecanada termcolor-1.1.0+computecanada tf-estimator-nightly-2.8.0.dev2021122109+computecanada typing-extensions-4.2.0+computecanada urllib3-1.26.9+computecanada werkzeug-2.1.2+computecanada wrapt-1.13.3+computecanada zipp-3.8.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting spektral>=1.0.8
+  Using cached spektral-1.1.0-py3-none-any.whl (129 kB)
+Collecting lxml
+  Using cached lxml-4.8.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (6.9 MB)
+Requirement already satisfied: scipy in /home/chauvec/.local/lib/python3.8/site-packages (from spektral>=1.0.8) (1.8.0+computecanada)
+Requirement already satisfied: networkx in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from spektral>=1.0.8) (2.8.2)
+Requirement already satisfied: numpy in /home/chauvec/.local/lib/python3.8/site-packages (from spektral>=1.0.8) (1.22.2+computecanada)
+Requirement already satisfied: scikit-learn in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from spektral>=1.0.8) (1.0.2+computecanada)
+Requirement already satisfied: joblib in /home/chauvec/.local/lib/python3.8/site-packages/joblib-0.14.0-py3.8.egg (from spektral>=1.0.8) (0.14.0)
+Requirement already satisfied: tensorflow>=2.2.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from spektral>=1.0.8) (2.8.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tqdm-4.64.0+computecanada-py2.py3-none-any.whl
+Requirement already satisfied: requests in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from spektral>=1.0.8) (2.27.1+computecanada)
+Requirement already satisfied: pandas in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from spektral>=1.0.8) (1.4.1+computecanada)
+Requirement already satisfied: google-pasta>=0.1.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (0.2.0+computecanada)
+Requirement already satisfied: libclang>=9.0.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (12.0.0+computecanada)
+Requirement already satisfied: astunparse>=1.6.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.6.3+computecanada)
+Requirement already satisfied: setuptools in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (56.0.0)
+Requirement already satisfied: tensorflow-io-gcs-filesystem>=0.23.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (0.23.1+computecanada)
+Requirement already satisfied: absl-py>=0.4.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.0.0+computecanada)
+Requirement already satisfied: wrapt>=1.11.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.13.3+computecanada)
+Requirement already satisfied: termcolor>=1.1.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.1.0+computecanada)
+Requirement already satisfied: grpcio<2.0,>=1.24.3 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.44.0+computecanada)
+Requirement already satisfied: tf-estimator-nightly==2.8.0.dev2021122109 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (2.8.0.dev2021122109+computecanada)
+Requirement already satisfied: six>=1.12.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.8.10/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.14.0)
+Requirement already satisfied: gast>=0.2.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (0.5.3+computecanada)
+Requirement already satisfied: h5py>=2.9.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (3.6.0+computecanada)
+Requirement already satisfied: keras<2.9,>=2.8.0rc0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (2.8.0+computecanada)
+Requirement already satisfied: typing-extensions>=3.6.6 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (4.2.0+computecanada)
+Requirement already satisfied: protobuf>=3.9.2 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (3.19.4+computecanada)
+Requirement already satisfied: flatbuffers>=1.12 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (20190709135844+computecanada)
+Requirement already satisfied: tensorboard<2.9,>=2.8 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (2.8.0+computecanada)
+Requirement already satisfied: opt-einsum>=2.3.2 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (3.3.0+computecanada)
+Requirement already satisfied: keras-preprocessing>=1.1.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorflow>=2.2.0->spektral>=1.0.8) (1.1.2+computecanada)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.8.10/lib/python3.8/site-packages (from astunparse>=1.6.0->tensorflow>=2.2.0->spektral>=1.0.8) (0.34.2)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (0.4.6+computecanada)
+Requirement already satisfied: markdown>=2.6.8 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (3.3.6+computecanada)
+Requirement already satisfied: tensorboard-data-server<0.7.0,>=0.6.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (0.6.1+computecanada)
+Requirement already satisfied: tensorboard-plugin-wit>=1.6.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (1.8.0+computecanada)
+Requirement already satisfied: werkzeug>=0.11.15 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (2.1.2+computecanada)
+Requirement already satisfied: google-auth<3,>=1.6.3 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (2.3.3+computecanada)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (0.2.8+computecanada)
+Requirement already satisfied: cachetools<5.0,>=2.0.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (4.2.4+computecanada)
+Requirement already satisfied: rsa<5,>=3.1.4 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (4.8+computecanada)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (1.3.0+computecanada)
+Requirement already satisfied: importlib-metadata>=4.4 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from markdown>=2.6.8->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (4.11.3+computecanada)
+Requirement already satisfied: zipp>=0.5 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from importlib-metadata>=4.4->markdown>=2.6.8->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (3.8.0+computecanada)
+Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (0.4.8+computecanada)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from requests->spektral>=1.0.8) (2.0.12+computecanada)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from requests->spektral>=1.0.8) (1.26.9+computecanada)
+Requirement already satisfied: certifi>=2017.4.17 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from requests->spektral>=1.0.8) (2021.10.8+computecanada)
+Requirement already satisfied: idna<4,>=2.5 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from requests->spektral>=1.0.8) (3.3+computecanada)
+Requirement already satisfied: oauthlib>=3.0.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.9,>=2.8->tensorflow>=2.2.0->spektral>=1.0.8) (3.1.1+computecanada)
+Requirement already satisfied: pytz>=2020.1 in /home/chauvec/.local/lib/python3.8/site-packages (from pandas->spektral>=1.0.8) (2022.1+computecanada)
+Requirement already satisfied: python-dateutil>=2.8.1 in /home/chauvec/.local/lib/python3.8/site-packages (from pandas->spektral>=1.0.8) (2.8.2+computecanada)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasgraph/lib/python3.8/site-packages (from scikit-learn->spektral>=1.0.8) (3.1.0)
+Installing collected packages: tqdm, lxml, spektral
+Successfully installed lxml-4.8.0 spektral-1.1.0 tqdm-4.64.0+computecanada
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: scipy>=1.8.0 in /home/chauvec/.local/lib/python3.8/site-packages (1.8.0+computecanada)
+Requirement already satisfied: numpy<1.25.0,>=1.21 in /home/chauvec/.local/lib/python3.8/site-packages (from scipy>=1.8.0) (1.22.2+computecanada)
+Cloning into 'plASgraph'...
+Updating files:  27% (37/134)Updating files:  28% (38/134)Updating files:  29% (39/134)Updating files:  30% (41/134)Updating files:  31% (42/134)Updating files:  32% (43/134)Updating files:  33% (45/134)Updating files:  34% (46/134)Updating files:  35% (47/134)Updating files:  36% (49/134)Updating files:  37% (50/134)Updating files:  38% (51/134)Updating files:  39% (53/134)Updating files:  40% (54/134)Updating files:  41% (55/134)Updating files:  42% (57/134)Updating files:  43% (58/134)Updating files:  44% (59/134)Updating files:  45% (61/134)Updating files:  46% (62/134)Updating files:  47% (63/134)Updating files:  48% (65/134)Updating files:  49% (66/134)Updating files:  50% (67/134)Updating files:  51% (69/134)Updating files:  52% (70/134)Updating files:  53% (72/134)Updating files:  54% (73/134)Updating files:  55% (74/134)Updating files:  56% (76/134)Updating files:  57% (77/134)Updating files:  58% (78/134)Updating files:  59% (80/134)Updating files:  60% (81/134)Updating files:  61% (82/134)Updating files:  62% (84/134)Updating files:  63% (85/134)Updating files:  64% (86/134)Updating files:  65% (88/134)Updating files:  66% (89/134)Updating files:  67% (90/134)Updating files:  68% (92/134)Updating files:  69% (93/134)Updating files:  70% (94/134)Updating files:  71% (96/134)Updating files:  72% (97/134)Updating files:  73% (98/134)Updating files:  74% (100/134)Updating files:  75% (101/134)Updating files:  76% (102/134)Updating files:  77% (104/134)Updating files:  78% (105/134)Updating files:  79% (106/134)Updating files:  80% (108/134)Updating files:  81% (109/134)Updating files:  82% (110/134)Updating files:  83% (112/134)Updating files:  84% (113/134)Updating files:  85% (114/134)Updating files:  86% (116/134)Updating files:  87% (117/134)Updating files:  88% (118/134)Updating files:  89% (120/134)Updating files:  90% (121/134)Updating files:  91% (122/134)Updating files:  92% (124/134)Updating files:  93% (125/134)Updating files:  94% (126/134)Updating files:  95% (128/134)Updating files:  96% (129/134)Updating files:  97% (130/134)Updating files:  98% (132/134)Updating files:  99% (133/134)Updating files: 100% (134/134)Updating files: 100% (134/134), done.
