@@ -2,6 +2,7 @@
 #SBATCH --time=8:00:00
 #SBATCH --mem=8G
 #SBATCH --account=def-chauvec
+#SBATCH --output=install_plasclass.log
 
 source ../config.sh
 mkdir -p ${TOOLS_DIR}
