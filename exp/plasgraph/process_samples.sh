@@ -11,8 +11,7 @@
 # Environment variables
 source ../../config.sh
 ## Sample ID
-SAMPLE_LIST=($(<${REPO_HOME}/data/samples_id.txt))
-SAMPLE=${SAMPLE_LIST[${SLURM_ARRAY_TASK_ID}]}
+SAMPLE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${REPO_HOME}/data/samples_id.txt)
 ## Experiment and output directory
 EXP_DIR=${REPO_HOME}/exp/plasgraph
 OUT_DIR=${EXP_DIR}/results/${SAMPLE}
