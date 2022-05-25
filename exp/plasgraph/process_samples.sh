@@ -5,7 +5,7 @@
 #SBATCH --time=1:00:00
 #SBATCH --account=def-chauvec
 #SBATCH --array=1-2
-#SBATCH --output=%A_%a.log
+#SBATCH --output=plasgraph_%A_%a.log
 #SBATCH --job-name=plasgraph
 
 # Environment variables
