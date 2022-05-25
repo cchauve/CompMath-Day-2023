@@ -8,7 +8,7 @@ source ../config.sh
 mkdir -p ${TOOLS_DIR}
 
 module load python/3
-python3 -m venv --system-site-packages ${TOOLS_DIR}/env_plasgraph
+python3 -m venv ${TOOLS_DIR}/env_plasgraph
 source ${TOOLS_DIR}/env_plasgraph/bin/activate
 
 pip install 'networkx>=2.6.3'
@@ -19,7 +19,7 @@ pip install 'biopython>=1.79'
 pip install 'matplotlib>=3.5.1'
 pip install --no-index 'tensorflow>=2.8'
 pip install 'spektral>=1.0.8'
-pip install 'scipy>=1.8.0'
+pip install 'scipy>=1.4.1'
 
 cd ${TOOLS_DIR}
 git clone https://github.com/cchauve/plASgraph.git
