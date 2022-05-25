@@ -3,6 +3,7 @@
 #SBATCH --mem=8G
 #SBATCH --account=def-chauvec
 #SBATCH --job-name=create_hyasp_db
+#SBATCH --output=create_database.log
 
 source ../../config.sh
 source ${TOOLS_DIR}/env_hyasp/bin/activate
