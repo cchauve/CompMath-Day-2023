@@ -11,3 +11,6 @@ Once the data were downloaded, the list of accession numbers was generated as fo
 unzip doi_10.15146_R33X2J__v2.zip
 grep ">" All_plasmids.fna | sed 's/>//g' > doi_10.15146_R33X2J__v2_id.txt
 ```
+
+2022-05-24.
+First attenmpt failed, see slurm-34421263.out
