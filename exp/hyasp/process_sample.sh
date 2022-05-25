@@ -2,12 +2,13 @@
 #SBATCH --time=1:00:00
 #SBATCH --mem=4G
 #SBATCH --account=def-chauvec
+#SBATCH --array=1-2
 
 source ../../config.sh
 source ${TOOLS_DIR}/env_hyasp/bin/activate
 
 # Sample ID
-SAMPLE=$1
+SAMPLE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${REPO_HOME}/data/samples_id.txt)
 # Experiment directory
 EXP_DIR=${REPO_HOME}/exp/hyasp/
 # Reference database
