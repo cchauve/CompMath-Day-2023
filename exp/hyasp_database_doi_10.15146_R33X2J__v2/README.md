@@ -1,4 +1,4 @@
-# Plasmids comparison paper: HyAsP database
+# ARETE Plamids Comparison Paper: HyAsP database
 
 This directory contains the list of GenBank accession numbers for the plasmid database used by HyAsP.
 
