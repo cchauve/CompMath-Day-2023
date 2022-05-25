@@ -1,0 +1,117 @@
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/Cython-0.29.30+computecanada-cp38-cp38-linux_x86_64.whl
+Installing collected packages: cython
+Successfully installed cython-0.29.30+computecanada
+Cloning into 'PlasClass'...
+running install
+running bdist_egg
+running egg_info
+creating plasclass_dpellow.egg-info
+writing plasclass_dpellow.egg-info/PKG-INFO
+writing dependency_links to plasclass_dpellow.egg-info/dependency_links.txt
+writing requirements to plasclass_dpellow.egg-info/requires.txt
+writing top-level names to plasclass_dpellow.egg-info/top_level.txt
+writing manifest file 'plasclass_dpellow.egg-info/SOURCES.txt'
+adding license file 'LICENSE' (matched pattern 'LICEN[CS]E*')
+writing manifest file 'plasclass_dpellow.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/plasclass
+copying plasclass/plasclass_utils.py -> build/lib/plasclass
+copying plasclass/__init__.py -> build/lib/plasclass
+copying plasclass/plasclass.py -> build/lib/plasclass
+copying plasclass/train.py -> build/lib/plasclass
+creating build/lib/plasclass/data
+copying plasclass/data/m1000 -> build/lib/plasclass/data
+copying plasclass/data/m10000 -> build/lib/plasclass/data
+copying plasclass/data/m100000 -> build/lib/plasclass/data
+copying plasclass/data/m500000 -> build/lib/plasclass/data
+copying plasclass/data/s1000 -> build/lib/plasclass/data
+copying plasclass/data/s10000 -> build/lib/plasclass/data
+copying plasclass/data/s100000 -> build/lib/plasclass/data
+copying plasclass/data/s500000 -> build/lib/plasclass/data
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/plasclass
+copying build/lib/plasclass/plasclass_utils.py -> build/bdist.linux-x86_64/egg/plasclass
+copying build/lib/plasclass/__init__.py -> build/bdist.linux-x86_64/egg/plasclass
+copying build/lib/plasclass/plasclass.py -> build/bdist.linux-x86_64/egg/plasclass
+copying build/lib/plasclass/train.py -> build/bdist.linux-x86_64/egg/plasclass
+creating build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/s10000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/m500000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/s500000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/m10000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/m1000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/m100000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/s100000 -> build/bdist.linux-x86_64/egg/plasclass/data
+copying build/lib/plasclass/data/s1000 -> build/bdist.linux-x86_64/egg/plasclass/data
+byte-compiling build/bdist.linux-x86_64/egg/plasclass/plasclass_utils.py to plasclass_utils.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/plasclass/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/plasclass/plasclass.py to plasclass.cpython-38.pyc
+byte-compiling build/bdist.linux-x86_64/egg/plasclass/train.py to train.cpython-38.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-3.8
+copying and adjusting classify_fasta.py -> build/scripts-3.8
+copying and adjusting plasclass/train.py -> build/scripts-3.8
+changing mode of build/scripts-3.8/classify_fasta.py from 644 to 755
+changing mode of build/scripts-3.8/train.py from 644 to 755
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.8/classify_fasta.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.8/train.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/classify_fasta.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/train.py to 755
+copying plasclass_dpellow.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying plasclass_dpellow.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying plasclass_dpellow.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying plasclass_dpellow.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying plasclass_dpellow.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+plasclass.__pycache__.plasclass.cpython-38: module references __file__
+creating dist
+creating 'dist/plasclass_dpellow-0.1-py3.8.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing plasclass_dpellow-0.1-py3.8.egg
+removing '/home/chauvec/.local/lib/python3.8/site-packages/plasclass_dpellow-0.1-py3.8.egg' (and everything under it)
+creating /home/chauvec/.local/lib/python3.8/site-packages/plasclass_dpellow-0.1-py3.8.egg
+Extracting plasclass_dpellow-0.1-py3.8.egg to /home/chauvec/.local/lib/python3.8/site-packages
+plasclass-dpellow 0.1 is already the active version in easy-install.pth
+Installing classify_fasta.py script to /home/chauvec/.local/bin
+Installing train.py script to /home/chauvec/.local/bin
+
+Installed /home/chauvec/.local/lib/python3.8/site-packages/plasclass_dpellow-0.1-py3.8.egg
+Processing dependencies for plasclass-dpellow==0.1
+Searching for numpy==1.17.4
+Best match: numpy 1.17.4
+Processing numpy-1.17.4-py3.8-linux-x86_64.egg
+numpy 1.17.4 is already the active version in easy-install.pth
+Installing f2py script to /home/chauvec/.local/bin
+Installing f2py3 script to /home/chauvec/.local/bin
+Installing f2py3.8 script to /home/chauvec/.local/bin
+
+Using /home/chauvec/.local/lib/python3.8/site-packages/numpy-1.17.4-py3.8-linux-x86_64.egg
+Searching for joblib==0.14.0
+Best match: joblib 0.14.0
+Processing joblib-0.14.0-py3.8.egg
+joblib 0.14.0 is already the active version in easy-install.pth
+
+Using /home/chauvec/.local/lib/python3.8/site-packages/joblib-0.14.0-py3.8.egg
+Searching for scikit-learn==0.21.3
+Best match: scikit-learn 0.21.3
+Processing scikit_learn-0.21.3-py3.8-linux-x86_64.egg
+scikit-learn 0.21.3 is already the active version in easy-install.pth
+
+Using /home/chauvec/.local/lib/python3.8/site-packages/scikit_learn-0.21.3-py3.8-linux-x86_64.egg
+Searching for scipy==1.3.2
+Best match: scipy 1.3.2
+Processing scipy-1.3.2-py3.8-linux-x86_64.egg
+scipy 1.3.2 is already the active version in easy-install.pth
+
+Using /home/chauvec/.local/lib/python3.8/site-packages/scipy-1.3.2-py3.8-linux-x86_64.egg
+Finished processing dependencies for plasclass-dpellow==0.1

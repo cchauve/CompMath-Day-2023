@@ -1,0 +1,151 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+Cloning into 'SCAPP'...
+running install
+running bdist_egg
+running egg_info
+creating scapp_dpellow.egg-info
+writing scapp_dpellow.egg-info/PKG-INFO
+writing dependency_links to scapp_dpellow.egg-info/dependency_links.txt
+writing entry points to scapp_dpellow.egg-info/entry_points.txt
+writing requirements to scapp_dpellow.egg-info/requires.txt
+writing top-level names to scapp_dpellow.egg-info/top_level.txt
+writing manifest file 'scapp_dpellow.egg-info/SOURCES.txt'
+writing manifest file 'scapp_dpellow.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/scapp
+copying scapp/create_hits_fasta.py -> build/lib/scapp
+copying scapp/parse_plasmid_scores.py -> build/lib/scapp
+copying scapp/recycle.py -> build/lib/scapp
+copying scapp/make_fasta_from_fastg.py -> build/lib/scapp
+copying scapp/__init__.py -> build/lib/scapp
+copying scapp/classify_fastg.py -> build/lib/scapp
+copying scapp/PARAMS.py -> build/lib/scapp
+copying scapp/scapp_utils.py -> build/lib/scapp
+copying scapp/scapp.py -> build/lib/scapp
+copying scapp/find_plasmid_gene_matches.py -> build/lib/scapp
+creating build/lib/scapp/data
+copying scapp/data/__init__.py -> build/lib/scapp/data
+copying scapp/config.json -> build/lib/scapp
+copying scapp/params.json -> build/lib/scapp
+creating build/lib/scapp/data/aa
+copying scapp/data/aa/aa1 -> build/lib/scapp/data/aa
+copying scapp/data/aa/aa2 -> build/lib/scapp/data/aa
+creating build/lib/scapp/data/nt
+copying scapp/data/nt/nt3 -> build/lib/scapp/data/nt
+copying scapp/data/nt/nt1 -> build/lib/scapp/data/nt
+copying scapp/data/nt/nt2 -> build/lib/scapp/data/nt
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/create_hits_fasta.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/parse_plasmid_scores.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/recycle.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/make_fasta_from_fastg.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/__init__.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/params.json -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/classify_fastg.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/PARAMS.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/scapp_utils.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/scapp.py -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/config.json -> build/bdist.linux-x86_64/egg/scapp
+copying build/lib/scapp/find_plasmid_gene_matches.py -> build/bdist.linux-x86_64/egg/scapp
+creating build/bdist.linux-x86_64/egg/scapp/data
+copying build/lib/scapp/data/__init__.py -> build/bdist.linux-x86_64/egg/scapp/data
+creating build/bdist.linux-x86_64/egg/scapp/data/aa
+copying build/lib/scapp/data/aa/aa1 -> build/bdist.linux-x86_64/egg/scapp/data/aa
+copying build/lib/scapp/data/aa/aa2 -> build/bdist.linux-x86_64/egg/scapp/data/aa
+creating build/bdist.linux-x86_64/egg/scapp/data/nt
+copying build/lib/scapp/data/nt/nt3 -> build/bdist.linux-x86_64/egg/scapp/data/nt
+copying build/lib/scapp/data/nt/nt1 -> build/bdist.linux-x86_64/egg/scapp/data/nt
+copying build/lib/scapp/data/nt/nt2 -> build/bdist.linux-x86_64/egg/scapp/data/nt
+byte-compiling build/bdist.linux-x86_64/egg/scapp/create_hits_fasta.py to create_hits_fasta.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/parse_plasmid_scores.py to parse_plasmid_scores.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/recycle.py to recycle.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/make_fasta_from_fastg.py to make_fasta_from_fastg.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/classify_fastg.py to classify_fastg.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/PARAMS.py to PARAMS.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/scapp_utils.py to scapp_utils.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/scapp.py to scapp.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/find_plasmid_gene_matches.py to find_plasmid_gene_matches.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/scapp/data/__init__.py to __init__.cpython-37.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+copying scapp/scapp_utils.py -> build/bdist.linux-x86_64/egg/
+copying scapp/config.json -> build/bdist.linux-x86_64/egg/
+copying scapp/params.json -> build/bdist.linux-x86_64/egg/
+copying scapp/recycle.py -> build/bdist.linux-x86_64/egg/
+copying scapp/make_fasta_from_fastg.py -> build/bdist.linux-x86_64/egg/
+copying scapp/classify_fastg.py -> build/bdist.linux-x86_64/egg/
+copying scapp/PARAMS.py -> build/bdist.linux-x86_64/egg/
+copying scapp/parse_plasmid_scores.py -> build/bdist.linux-x86_64/egg/
+copying scapp/create_hits_fasta.py -> build/bdist.linux-x86_64/egg/
+copying scapp/find_plasmid_gene_matches.py -> build/bdist.linux-x86_64/egg/
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying scapp_dpellow.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying scapp_dpellow.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying scapp_dpellow.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying scapp_dpellow.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying scapp_dpellow.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying scapp_dpellow.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+scapp.__pycache__.PARAMS.cpython-37: module references __file__
+scapp.__pycache__.scapp.cpython-37: module references __file__
+creating dist
+creating 'dist/scapp_dpellow-0.1-py3.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing scapp_dpellow-0.1-py3.7.egg
+removing '/home/chauvec/.local/lib/python3.7/site-packages/scapp_dpellow-0.1-py3.7.egg' (and everything under it)
+creating /home/chauvec/.local/lib/python3.7/site-packages/scapp_dpellow-0.1-py3.7.egg
+Extracting scapp_dpellow-0.1-py3.7.egg to /home/chauvec/.local/lib/python3.7/site-packages
+scapp-dpellow 0.1 is already the active version in easy-install.pth
+Installing scapp script to /home/chauvec/.local/bin
+
+Installed /home/chauvec/.local/lib/python3.7/site-packages/scapp_dpellow-0.1-py3.7.egg
+Processing dependencies for scapp-dpellow==0.1
+Searching for numpy==1.17.4
+Best match: numpy 1.17.4
+Processing numpy-1.17.4-py3.7-linux-x86_64.egg
+numpy 1.17.4 is already the active version in easy-install.pth
+Installing f2py script to /home/chauvec/.local/bin
+Installing f2py3 script to /home/chauvec/.local/bin
+Installing f2py3.7 script to /home/chauvec/.local/bin
+
+Using /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg
+Searching for nose==1.3.0
+Best match: nose 1.3.0
+Processing nose-1.3.0-py3.7.egg
+nose 1.3.0 is already the active version in easy-install.pth
+Installing nosetests script to /home/chauvec/.local/bin
+Installing nosetests-3.7 script to /home/chauvec/.local/bin
+
+Using /home/chauvec/.local/lib/python3.7/site-packages/nose-1.3.0-py3.7.egg
+Searching for pysam==0.15.3
+Best match: pysam 0.15.3
+Processing pysam-0.15.3-py3.7-linux-x86_64.egg
+pysam 0.15.3 is already the active version in easy-install.pth
+
+Using /home/chauvec/.local/lib/python3.7/site-packages/pysam-0.15.3-py3.7-linux-x86_64.egg
+Searching for networkx==2.4
+Best match: networkx 2.4
+Processing networkx-2.4-py3.7.egg
+networkx 2.4 is already the active version in easy-install.pth
+
+Using /home/chauvec/.local/lib/python3.7/site-packages/networkx-2.4-py3.7.egg
+Searching for decorator==5.1.1
+Best match: decorator 5.1.1
+Processing decorator-5.1.1-py3.7.egg
+decorator 5.1.1 is already the active version in easy-install.pth
+
+Using /home/chauvec/.local/lib/python3.7/site-packages/decorator-5.1.1-py3.7.egg
+Finished processing dependencies for scapp-dpellow==0.1

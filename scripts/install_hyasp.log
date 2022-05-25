@@ -1,0 +1,1893 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: numpy in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (1.17.4)
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting pandas
+  Loading KWallet
+  Loading SecretService
+  Loading Windows
+  Loading chainer
+  Loading macOS
+Requirement already satisfied: numpy>=1.17.3; platform_machine != "aarch64" and platform_machine != "arm64" and python_version < "3.10" in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (from pandas) (1.17.4)
+Collecting pytz>=2017.3 (from pandas)
+Collecting python-dateutil>=2.7.3 (from pandas)
+Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/gentoo/2020/usr/lib64/python3.7/site-packages (from python-dateutil>=2.7.3->pandas) (1.14.0)
+Installing collected packages: pytz, python-dateutil, pandas
+Successfully installed pandas-1.3.5+computecanada python-dateutil-2.8.2+computecanada pytz-2022.1+computecanada
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting biopython
+  Loading KWallet
+  Loading SecretService
+  Loading Windows
+  Loading chainer
+  Loading macOS
+Requirement already satisfied: numpy in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (from biopython) (1.17.4)
+Installing collected packages: biopython
+Successfully installed biopython-1.79+computecanada
+Cloning into 'hyasp'...
+Updating files:   3% (28/878)Updating files:   4% (36/878)Updating files:   5% (44/878)Updating files:   6% (53/878)Updating files:   7% (62/878)Updating files:   8% (71/878)Updating files:   9% (80/878)Updating files:  10% (88/878)Updating files:  10% (90/878)Updating files:  11% (97/878)Updating files:  12% (106/878)Updating files:  13% (115/878)Updating files:  14% (123/878)Updating files:  15% (132/878)Updating files:  16% (141/878)Updating files:  17% (150/878)Updating files:  18% (159/878)Updating files:  19% (167/878)Updating files:  20% (176/878)Updating files:  21% (185/878)Updating files:  22% (194/878)Updating files:  23% (202/878)Updating files:  24% (211/878)Updating files:  25% (220/878)Updating files:  26% (229/878)Updating files:  26% (232/878)Updating files:  27% (238/878)Updating files:  28% (246/878)Updating files:  29% (255/878)Updating files:  30% (264/878)Updating files:  31% (273/878)Updating files:  32% (281/878)Updating files:  33% (290/878)Updating files:  34% (299/878)Updating files:  35% (308/878)Updating files:  36% (317/878)Updating files:  37% (325/878)Updating files:  38% (334/878)Updating files:  39% (343/878)Updating files:  40% (352/878)Updating files:  41% (360/878)Updating files:  42% (369/878)Updating files:  42% (371/878)Updating files:  43% (378/878)Updating files:  44% (387/878)Updating files:  45% (396/878)Updating files:  46% (404/878)Updating files:  47% (413/878)Updating files:  48% (422/878)Updating files:  49% (431/878)Updating files:  50% (439/878)Updating files:  51% (448/878)Updating files:  52% (457/878)Updating files:  53% (466/878)Updating files:  54% (475/878)Updating files:  55% (483/878)Updating files:  56% (492/878)Updating files:  57% (501/878)Updating files:  58% (510/878)Updating files:  59% (519/878)Updating files:  60% (527/878)Updating files:  60% (532/878)Updating files:  61% (536/878)Updating files:  62% (545/878)Updating files:  63% (554/878)Updating files:  64% (562/878)Updating files:  65% (571/878)Updating files:  66% (580/878)Updating files:  67% (589/878)Updating files:  68% (598/878)Updating files:  69% (606/878)Updating files:  70% (615/878)Updating files:  71% (624/878)Updating files:  72% (633/878)Updating files:  73% (641/878)Updating files:  74% (650/878)Updating files:  75% (659/878)Updating files:  76% (668/878)Updating files:  77% (677/878)Updating files:  78% (685/878)Updating files:  79% (694/878)Updating files:  80% (703/878)Updating files:  81% (712/878)Updating files:  82% (720/878)Updating files:  83% (729/878)Updating files:  84% (738/878)Updating files:  85% (747/878)Updating files:  86% (756/878)Updating files:  87% (764/878)Updating files:  88% (773/878)Updating files:  89% (782/878)Updating files:  90% (791/878)Updating files:  91% (799/878)Updating files:  92% (808/878)Updating files:  93% (817/878)Updating files:  94% (826/878)Updating files:  95% (835/878)Updating files:  96% (843/878)Updating files:  97% (852/878)Updating files:  98% (861/878)Updating files:  99% (870/878)Updating files: 100% (878/878)Updating files: 100% (878/878), done.
+running sdist
+running egg_info
+creating HyAsP.egg-info
+writing HyAsP.egg-info/PKG-INFO
+writing dependency_links to HyAsP.egg-info/dependency_links.txt
+writing entry points to HyAsP.egg-info/entry_points.txt
+writing requirements to HyAsP.egg-info/requires.txt
+writing top-level names to HyAsP.egg-info/top_level.txt
+writing manifest file 'HyAsP.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'HyAsP.egg-info/SOURCES.txt'
+running check
+creating HyAsP-1.0.0
+creating HyAsP-1.0.0/HyAsP
+creating HyAsP-1.0.0/HyAsP.egg-info
+creating HyAsP-1.0.0/databases
+creating HyAsP-1.0.0/example
+creating HyAsP-1.0.0/example/example_files
+creating HyAsP-1.0.0/example/example_files/_hyasp_outputs
+creating HyAsP-1.0.0/example/example_files/_pipeline_outputs
+creating HyAsP-1.0.0/results
+creating HyAsP-1.0.0/results/analysis_mob_filtered
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_1
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_102
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_107
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_108
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_109
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_110
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_111
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_112
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_113
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_114
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_115
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_116
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_117
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_118
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_119
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_120
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_121
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_122
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_123
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_124
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_129
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_133
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_15
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_16
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_18
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_19
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_23
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_24
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_25
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_26
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_27
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_28
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_30
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_31
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_32
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_33
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_34
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_35
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_36
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_37
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_38
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_39
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_40
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_41
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_42
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_44
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_45
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_46
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_47
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_48
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_49
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_5
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_50
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_51
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_52
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_55
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_56
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_62
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_63
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_64
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_65
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_66
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_76
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_85
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_86
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_87
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval/greedy
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval/plasmidspades
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval/greedy
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval/mob_recon
+creating HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval/plasmidspades
+creating HyAsP-1.0.0/results/quast_results_mob_filtered
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/102_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/102_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/107_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/107_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/108_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/108_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/109_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/109_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/110_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/110_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/111_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/111_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/112_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/112_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/113_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/113_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/114_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/114_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/115_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/115_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/116_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/116_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/117_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/117_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/118_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/118_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/119_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/119_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/120_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/120_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/121_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/121_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/122_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/122_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/123_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/123_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/124_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/124_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/129_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/129_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/133_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/133_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/15_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/15_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/16_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/16_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/18_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/18_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/19_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/19_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/1_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/1_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/23_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/23_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/24_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/24_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/25_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/25_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/26_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/26_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/27_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/27_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/28_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/28_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/30_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/30_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/31_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/31_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/32_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/32_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/33_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/33_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/34_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/34_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/35_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/35_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/36_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/36_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/37_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/37_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/38_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/38_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/39_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/39_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/40_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/40_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/41_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/41_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/42_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/42_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/44_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/44_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/45_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/45_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/46_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/46_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/47_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/47_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/48_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/48_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/49_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/49_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/50_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/50_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/51_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/51_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/52_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/52_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/55_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/55_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/56_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/56_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/5_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/5_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/62_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/62_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/63_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/63_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/64_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/64_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/65_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/65_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/66_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/66_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/76_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/76_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/85_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/85_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/86_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/86_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/87_quast
+creating HyAsP-1.0.0/results/quast_results_mob_filtered/87_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/102_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/102_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/107_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/107_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/108_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/108_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/109_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/109_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/110_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/110_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/111_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/111_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/112_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/112_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/113_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/113_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/114_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/114_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/115_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/115_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/116_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/116_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/117_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/117_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/118_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/118_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/119_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/119_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/120_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/120_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/121_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/121_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/122_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/122_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/123_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/123_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/124_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/124_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/129_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/129_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/133_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/133_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/15_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/15_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/16_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/16_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/18_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/18_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/19_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/19_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/1_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/1_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/23_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/23_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/24_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/24_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/25_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/25_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/26_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/26_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/27_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/27_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/28_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/28_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/30_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/30_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/31_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/31_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/32_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/32_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/33_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/33_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/34_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/34_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/35_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/35_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/36_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/36_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/37_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/37_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/38_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/38_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/39_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/39_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/40_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/40_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/41_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/41_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/42_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/42_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/44_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/44_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/45_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/45_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/46_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/46_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/47_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/47_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/48_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/48_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/49_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/49_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/50_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/50_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/51_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/51_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/52_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/52_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/55_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/55_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/56_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/56_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/5_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/5_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/62_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/62_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/63_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/63_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/64_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/64_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/65_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/65_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/66_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/66_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/76_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/76_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/85_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/85_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/86_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/86_quast/contigs_reports
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/87_quast
+creating HyAsP-1.0.0/results/quast_results_ncbi_filtered/87_quast/contigs_reports
+creating HyAsP-1.0.0/results/recycler_outputs
+creating HyAsP-1.0.0/results/recycler_outputs/eval
+creating HyAsP-1.0.0/results/recycler_outputs/quast
+creating HyAsP-1.0.0/results/recycler_outputs/quast/reports
+creating HyAsP-1.0.0/singularity
+copying files to HyAsP-1.0.0...
+copying .gitattributes -> HyAsP-1.0.0
+copying HyAsP_main.pdf -> HyAsP-1.0.0
+copying HyAsP_supplement.pdf -> HyAsP-1.0.0
+copying LICENSE -> HyAsP-1.0.0
+copying MANIFEST.in -> HyAsP-1.0.0
+copying README.md -> HyAsP-1.0.0
+copying setup.py -> HyAsP-1.0.0
+copying HyAsP/__init__.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/assemble_unicycler.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/assembly_graph.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/create_db.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/determine_plasmids.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/fastq_to_plasmids.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/filter_blast_mapping.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/find_plasmids.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/gene_contig_mapping.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/hyasp.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/map_genes.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP/preprocess_fastq.py -> HyAsP-1.0.0/HyAsP
+copying HyAsP.egg-info/PKG-INFO -> HyAsP-1.0.0/HyAsP.egg-info
+copying HyAsP.egg-info/SOURCES.txt -> HyAsP-1.0.0/HyAsP.egg-info
+copying HyAsP.egg-info/dependency_links.txt -> HyAsP-1.0.0/HyAsP.egg-info
+copying HyAsP.egg-info/entry_points.txt -> HyAsP-1.0.0/HyAsP.egg-info
+copying HyAsP.egg-info/requires.txt -> HyAsP-1.0.0/HyAsP.egg-info
+copying HyAsP.egg-info/top_level.txt -> HyAsP-1.0.0/HyAsP.egg-info
+copying databases/README.md -> HyAsP-1.0.0/databases
+copying databases/database_compositions.csv -> HyAsP-1.0.0/databases
+copying databases/mob_accessions.txt -> HyAsP-1.0.0/databases
+copying databases/ncbi_blacklist.txt -> HyAsP-1.0.0/databases
+copying databases/plasmids.csv -> HyAsP-1.0.0/databases
+copying example/HyAsP_example_usage.ipynb -> HyAsP-1.0.0/example
+copying example/example_files/_SRR1029665_1.fastq -> HyAsP-1.0.0/example/example_files
+copying example/example_files/_SRR1029665_2.fastq -> HyAsP-1.0.0/example/example_files
+copying example/example_files/_assembly.gfa -> HyAsP-1.0.0/example/example_files
+copying example/example_files/_filtered_gcm.csv -> HyAsP-1.0.0/example/example_files
+copying example/example_files/_gcm.csv -> HyAsP-1.0.0/example/example_files
+copying example/example_files/_genes.fasta -> HyAsP-1.0.0/example/example_files
+copying example/example_files/_hyasp_outputs/contig_chains.csv -> HyAsP-1.0.0/example/example_files/_hyasp_outputs
+copying example/example_files/_hyasp_outputs/putative_plasmid_contigs.fasta -> HyAsP-1.0.0/example/example_files/_hyasp_outputs
+copying example/example_files/_hyasp_outputs/putative_plasmids.fasta -> HyAsP-1.0.0/example/example_files/_hyasp_outputs
+copying example/example_files/_hyasp_outputs/questionable_plasmid_contigs.fasta -> HyAsP-1.0.0/example/example_files/_hyasp_outputs
+copying example/example_files/_hyasp_outputs/questionable_plasmids.fasta -> HyAsP-1.0.0/example/example_files/_hyasp_outputs
+copying example/example_files/_hyasp_outputs/tagged_assembly.gfa -> HyAsP-1.0.0/example/example_files/_hyasp_outputs
+copying example/example_files/_pipeline_outputs/contig_chains.csv -> HyAsP-1.0.0/example/example_files/_pipeline_outputs
+copying example/example_files/_pipeline_outputs/putative_plasmid_contigs.fasta -> HyAsP-1.0.0/example/example_files/_pipeline_outputs
+copying example/example_files/_pipeline_outputs/putative_plasmids.fasta -> HyAsP-1.0.0/example/example_files/_pipeline_outputs
+copying example/example_files/_pipeline_outputs/questionable_plasmid_contigs.fasta -> HyAsP-1.0.0/example/example_files/_pipeline_outputs
+copying example/example_files/_pipeline_outputs/questionable_plasmids.fasta -> HyAsP-1.0.0/example/example_files/_pipeline_outputs
+copying example/example_files/_pipeline_outputs/tagged_assembly.gfa -> HyAsP-1.0.0/example/example_files/_pipeline_outputs
+copying results/README.md -> HyAsP-1.0.0/results
+copying results/binning_scores_translocations.ipynb -> HyAsP-1.0.0/results
+copying results/evaluate_mob_filtered_refined.ipynb -> HyAsP-1.0.0/results
+copying results/evaluate_ncbi_filtered_refined.ipynb -> HyAsP-1.0.0/results
+copying results/graph_vs_scores.ipynb -> HyAsP-1.0.0/results
+copying results/hyasp_quast_analysis_mob_filtered.ipynb -> HyAsP-1.0.0/results
+copying results/hyasp_quast_analysis_ncbi_filtered.ipynb -> HyAsP-1.0.0/results
+copying results/notes.txt -> HyAsP-1.0.0/results
+copying results/num_plasmids_vs_score.ipynb -> HyAsP-1.0.0/results
+copying results/num_references_predictions.ipynb -> HyAsP-1.0.0/results
+copying results/parameter_variation.ipynb -> HyAsP-1.0.0/results
+copying results/plasmid_chromosome_quast_alignments.ipynb -> HyAsP-1.0.0/results
+copying results/recycler_quast_analysis.ipynb -> HyAsP-1.0.0/results
+copying results/reference_similarity.ipynb -> HyAsP-1.0.0/results
+copying results/samples.csv -> HyAsP-1.0.0/results
+copying results/score_alternatives.ipynb -> HyAsP-1.0.0/results
+copying results/subsampling_analysis.ipynb -> HyAsP-1.0.0/results
+copying results/test_ids.txt -> HyAsP-1.0.0/results
+copying results/analysis_mob_filtered/scoring_results.csv -> HyAsP-1.0.0/results/analysis_mob_filtered
+copying results/analysis_mob_filtered/sample_1/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval/greedy
+copying results/analysis_mob_filtered/sample_1/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval/mob_recon
+copying results/analysis_mob_filtered/sample_1/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_1/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_102/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval/greedy
+copying results/analysis_mob_filtered/sample_102/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval/mob_recon
+copying results/analysis_mob_filtered/sample_102/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_102/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_107/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval/greedy
+copying results/analysis_mob_filtered/sample_107/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval/mob_recon
+copying results/analysis_mob_filtered/sample_107/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_107/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_108/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval/greedy
+copying results/analysis_mob_filtered/sample_108/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval/mob_recon
+copying results/analysis_mob_filtered/sample_108/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_108/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_109/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval/greedy
+copying results/analysis_mob_filtered/sample_109/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval/mob_recon
+copying results/analysis_mob_filtered/sample_109/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_109/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_110/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval/greedy
+copying results/analysis_mob_filtered/sample_110/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval/mob_recon
+copying results/analysis_mob_filtered/sample_110/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_110/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_111/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval/greedy
+copying results/analysis_mob_filtered/sample_111/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval/mob_recon
+copying results/analysis_mob_filtered/sample_111/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_111/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_112/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval/greedy
+copying results/analysis_mob_filtered/sample_112/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval/mob_recon
+copying results/analysis_mob_filtered/sample_112/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_112/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_113/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval/greedy
+copying results/analysis_mob_filtered/sample_113/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval/mob_recon
+copying results/analysis_mob_filtered/sample_113/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_113/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_114/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval/greedy
+copying results/analysis_mob_filtered/sample_114/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval/mob_recon
+copying results/analysis_mob_filtered/sample_114/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_114/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_115/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval/greedy
+copying results/analysis_mob_filtered/sample_115/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval/mob_recon
+copying results/analysis_mob_filtered/sample_115/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_115/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_116/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval/greedy
+copying results/analysis_mob_filtered/sample_116/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval/mob_recon
+copying results/analysis_mob_filtered/sample_116/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_116/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_117/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval/greedy
+copying results/analysis_mob_filtered/sample_117/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval/mob_recon
+copying results/analysis_mob_filtered/sample_117/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_117/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_118/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval/greedy
+copying results/analysis_mob_filtered/sample_118/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval/mob_recon
+copying results/analysis_mob_filtered/sample_118/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_118/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_119/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval/greedy
+copying results/analysis_mob_filtered/sample_119/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval/mob_recon
+copying results/analysis_mob_filtered/sample_119/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_119/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_120/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval/greedy
+copying results/analysis_mob_filtered/sample_120/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval/mob_recon
+copying results/analysis_mob_filtered/sample_120/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_120/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_121/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval/greedy
+copying results/analysis_mob_filtered/sample_121/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval/mob_recon
+copying results/analysis_mob_filtered/sample_121/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_121/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_122/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval/greedy
+copying results/analysis_mob_filtered/sample_122/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval/mob_recon
+copying results/analysis_mob_filtered/sample_122/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_122/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_123/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval/greedy
+copying results/analysis_mob_filtered/sample_123/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval/mob_recon
+copying results/analysis_mob_filtered/sample_123/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_123/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_124/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval/greedy
+copying results/analysis_mob_filtered/sample_124/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval/mob_recon
+copying results/analysis_mob_filtered/sample_124/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_124/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_129/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval/greedy
+copying results/analysis_mob_filtered/sample_129/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval/mob_recon
+copying results/analysis_mob_filtered/sample_129/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_129/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_133/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval/greedy
+copying results/analysis_mob_filtered/sample_133/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval/mob_recon
+copying results/analysis_mob_filtered/sample_133/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_133/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_15/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval/greedy
+copying results/analysis_mob_filtered/sample_15/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval/mob_recon
+copying results/analysis_mob_filtered/sample_15/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_15/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_16/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval/greedy
+copying results/analysis_mob_filtered/sample_16/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval/mob_recon
+copying results/analysis_mob_filtered/sample_16/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_16/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_18/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval/greedy
+copying results/analysis_mob_filtered/sample_18/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval/mob_recon
+copying results/analysis_mob_filtered/sample_18/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_18/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_19/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval/greedy
+copying results/analysis_mob_filtered/sample_19/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval/mob_recon
+copying results/analysis_mob_filtered/sample_19/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_19/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_23/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval/greedy
+copying results/analysis_mob_filtered/sample_23/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval/mob_recon
+copying results/analysis_mob_filtered/sample_23/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_23/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_24/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval/greedy
+copying results/analysis_mob_filtered/sample_24/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval/mob_recon
+copying results/analysis_mob_filtered/sample_24/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_24/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_25/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval/greedy
+copying results/analysis_mob_filtered/sample_25/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval/mob_recon
+copying results/analysis_mob_filtered/sample_25/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_25/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_26/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval/greedy
+copying results/analysis_mob_filtered/sample_26/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval/mob_recon
+copying results/analysis_mob_filtered/sample_26/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_26/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_27/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval/greedy
+copying results/analysis_mob_filtered/sample_27/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval/mob_recon
+copying results/analysis_mob_filtered/sample_27/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_27/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_28/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval/greedy
+copying results/analysis_mob_filtered/sample_28/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval/mob_recon
+copying results/analysis_mob_filtered/sample_28/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_28/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_30/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval/greedy
+copying results/analysis_mob_filtered/sample_30/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval/mob_recon
+copying results/analysis_mob_filtered/sample_30/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_30/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_31/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval/greedy
+copying results/analysis_mob_filtered/sample_31/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval/mob_recon
+copying results/analysis_mob_filtered/sample_31/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_31/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_32/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval/greedy
+copying results/analysis_mob_filtered/sample_32/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval/mob_recon
+copying results/analysis_mob_filtered/sample_32/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_32/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_33/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval/greedy
+copying results/analysis_mob_filtered/sample_33/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval/mob_recon
+copying results/analysis_mob_filtered/sample_33/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_33/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_34/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval/greedy
+copying results/analysis_mob_filtered/sample_34/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval/mob_recon
+copying results/analysis_mob_filtered/sample_34/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_34/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_35/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval/greedy
+copying results/analysis_mob_filtered/sample_35/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval/mob_recon
+copying results/analysis_mob_filtered/sample_35/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_35/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_36/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval/greedy
+copying results/analysis_mob_filtered/sample_36/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval/mob_recon
+copying results/analysis_mob_filtered/sample_36/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_36/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_37/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval/greedy
+copying results/analysis_mob_filtered/sample_37/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval/mob_recon
+copying results/analysis_mob_filtered/sample_37/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_37/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_38/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval/greedy
+copying results/analysis_mob_filtered/sample_38/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval/mob_recon
+copying results/analysis_mob_filtered/sample_38/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_38/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_39/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval/greedy
+copying results/analysis_mob_filtered/sample_39/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval/mob_recon
+copying results/analysis_mob_filtered/sample_39/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_39/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_40/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval/greedy
+copying results/analysis_mob_filtered/sample_40/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval/mob_recon
+copying results/analysis_mob_filtered/sample_40/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_40/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_41/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval/greedy
+copying results/analysis_mob_filtered/sample_41/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval/mob_recon
+copying results/analysis_mob_filtered/sample_41/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_41/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_42/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval/greedy
+copying results/analysis_mob_filtered/sample_42/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval/mob_recon
+copying results/analysis_mob_filtered/sample_42/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_42/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_44/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval/greedy
+copying results/analysis_mob_filtered/sample_44/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval/mob_recon
+copying results/analysis_mob_filtered/sample_44/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_44/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_45/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval/greedy
+copying results/analysis_mob_filtered/sample_45/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval/mob_recon
+copying results/analysis_mob_filtered/sample_45/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_45/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_46/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval/greedy
+copying results/analysis_mob_filtered/sample_46/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval/mob_recon
+copying results/analysis_mob_filtered/sample_46/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_46/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_47/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval/greedy
+copying results/analysis_mob_filtered/sample_47/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval/mob_recon
+copying results/analysis_mob_filtered/sample_47/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_47/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_48/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval/greedy
+copying results/analysis_mob_filtered/sample_48/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval/mob_recon
+copying results/analysis_mob_filtered/sample_48/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_48/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_49/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval/greedy
+copying results/analysis_mob_filtered/sample_49/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval/mob_recon
+copying results/analysis_mob_filtered/sample_49/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_49/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_5/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval/greedy
+copying results/analysis_mob_filtered/sample_5/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval/mob_recon
+copying results/analysis_mob_filtered/sample_5/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_5/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_50/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval/greedy
+copying results/analysis_mob_filtered/sample_50/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval/mob_recon
+copying results/analysis_mob_filtered/sample_50/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_50/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_51/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval/greedy
+copying results/analysis_mob_filtered/sample_51/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval/mob_recon
+copying results/analysis_mob_filtered/sample_51/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_51/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_52/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval/greedy
+copying results/analysis_mob_filtered/sample_52/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval/mob_recon
+copying results/analysis_mob_filtered/sample_52/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_52/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_55/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval/greedy
+copying results/analysis_mob_filtered/sample_55/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval/mob_recon
+copying results/analysis_mob_filtered/sample_55/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_55/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_56/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval/greedy
+copying results/analysis_mob_filtered/sample_56/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval/mob_recon
+copying results/analysis_mob_filtered/sample_56/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_56/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_62/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval/greedy
+copying results/analysis_mob_filtered/sample_62/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval/mob_recon
+copying results/analysis_mob_filtered/sample_62/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_62/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_63/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval/greedy
+copying results/analysis_mob_filtered/sample_63/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval/mob_recon
+copying results/analysis_mob_filtered/sample_63/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_63/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_64/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval/greedy
+copying results/analysis_mob_filtered/sample_64/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval/mob_recon
+copying results/analysis_mob_filtered/sample_64/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_64/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_65/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval/greedy
+copying results/analysis_mob_filtered/sample_65/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval/mob_recon
+copying results/analysis_mob_filtered/sample_65/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_65/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_66/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval/greedy
+copying results/analysis_mob_filtered/sample_66/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval/mob_recon
+copying results/analysis_mob_filtered/sample_66/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_66/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_76/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval/greedy
+copying results/analysis_mob_filtered/sample_76/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval/mob_recon
+copying results/analysis_mob_filtered/sample_76/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_76/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_85/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval/greedy
+copying results/analysis_mob_filtered/sample_85/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval/mob_recon
+copying results/analysis_mob_filtered/sample_85/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_85/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_86/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval/greedy
+copying results/analysis_mob_filtered/sample_86/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval/mob_recon
+copying results/analysis_mob_filtered/sample_86/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_86/eval/plasmidspades
+copying results/analysis_mob_filtered/sample_87/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval/greedy
+copying results/analysis_mob_filtered/sample_87/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval/mob_recon
+copying results/analysis_mob_filtered/sample_87/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_mob_filtered/sample_87/eval/plasmidspades
+copying results/analysis_ncbi_filtered/scoring_results.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered
+copying results/analysis_ncbi_filtered/sample_1/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval/greedy
+copying results/analysis_ncbi_filtered/sample_1/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_1/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_1/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_102/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval/greedy
+copying results/analysis_ncbi_filtered/sample_102/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_102/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_102/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_107/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval/greedy
+copying results/analysis_ncbi_filtered/sample_107/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_107/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_107/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_108/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval/greedy
+copying results/analysis_ncbi_filtered/sample_108/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_108/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_108/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_109/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval/greedy
+copying results/analysis_ncbi_filtered/sample_109/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_109/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_109/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_110/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval/greedy
+copying results/analysis_ncbi_filtered/sample_110/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_110/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_110/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_111/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval/greedy
+copying results/analysis_ncbi_filtered/sample_111/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_111/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_111/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_112/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval/greedy
+copying results/analysis_ncbi_filtered/sample_112/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_112/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_112/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_113/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval/greedy
+copying results/analysis_ncbi_filtered/sample_113/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_113/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_113/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_114/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval/greedy
+copying results/analysis_ncbi_filtered/sample_114/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_114/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_114/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_115/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval/greedy
+copying results/analysis_ncbi_filtered/sample_115/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_115/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_115/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_116/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval/greedy
+copying results/analysis_ncbi_filtered/sample_116/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_116/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_116/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_117/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval/greedy
+copying results/analysis_ncbi_filtered/sample_117/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_117/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_117/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_118/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval/greedy
+copying results/analysis_ncbi_filtered/sample_118/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_118/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_118/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_119/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval/greedy
+copying results/analysis_ncbi_filtered/sample_119/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_119/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_119/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_120/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval/greedy
+copying results/analysis_ncbi_filtered/sample_120/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_120/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_120/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_121/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval/greedy
+copying results/analysis_ncbi_filtered/sample_121/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_121/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_121/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_122/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval/greedy
+copying results/analysis_ncbi_filtered/sample_122/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_122/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_122/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_123/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval/greedy
+copying results/analysis_ncbi_filtered/sample_123/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_123/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_123/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_124/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval/greedy
+copying results/analysis_ncbi_filtered/sample_124/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_124/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_124/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_129/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval/greedy
+copying results/analysis_ncbi_filtered/sample_129/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_129/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_129/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_133/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval/greedy
+copying results/analysis_ncbi_filtered/sample_133/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_133/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_133/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_15/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval/greedy
+copying results/analysis_ncbi_filtered/sample_15/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_15/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_15/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_16/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval/greedy
+copying results/analysis_ncbi_filtered/sample_16/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_16/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_16/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_18/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval/greedy
+copying results/analysis_ncbi_filtered/sample_18/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_18/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_18/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_19/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval/greedy
+copying results/analysis_ncbi_filtered/sample_19/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_19/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_19/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_23/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval/greedy
+copying results/analysis_ncbi_filtered/sample_23/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_23/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_23/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_24/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval/greedy
+copying results/analysis_ncbi_filtered/sample_24/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_24/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_24/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_25/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval/greedy
+copying results/analysis_ncbi_filtered/sample_25/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_25/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_25/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_26/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval/greedy
+copying results/analysis_ncbi_filtered/sample_26/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_26/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_26/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_27/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval/greedy
+copying results/analysis_ncbi_filtered/sample_27/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_27/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_27/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_28/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval/greedy
+copying results/analysis_ncbi_filtered/sample_28/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_28/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_28/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_30/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval/greedy
+copying results/analysis_ncbi_filtered/sample_30/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_30/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_30/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_31/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval/greedy
+copying results/analysis_ncbi_filtered/sample_31/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_31/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_31/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_32/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval/greedy
+copying results/analysis_ncbi_filtered/sample_32/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_32/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_32/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_33/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval/greedy
+copying results/analysis_ncbi_filtered/sample_33/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_33/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_33/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_34/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval/greedy
+copying results/analysis_ncbi_filtered/sample_34/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_34/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_34/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_35/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval/greedy
+copying results/analysis_ncbi_filtered/sample_35/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_35/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_35/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_36/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval/greedy
+copying results/analysis_ncbi_filtered/sample_36/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_36/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_36/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_37/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval/greedy
+copying results/analysis_ncbi_filtered/sample_37/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_37/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_37/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_38/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval/greedy
+copying results/analysis_ncbi_filtered/sample_38/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_38/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_38/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_39/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval/greedy
+copying results/analysis_ncbi_filtered/sample_39/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_39/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_39/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_40/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval/greedy
+copying results/analysis_ncbi_filtered/sample_40/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_40/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_40/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_41/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval/greedy
+copying results/analysis_ncbi_filtered/sample_41/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_41/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_41/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_42/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval/greedy
+copying results/analysis_ncbi_filtered/sample_42/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_42/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_42/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_44/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval/greedy
+copying results/analysis_ncbi_filtered/sample_44/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_44/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_44/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_45/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval/greedy
+copying results/analysis_ncbi_filtered/sample_45/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_45/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_45/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_46/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval/greedy
+copying results/analysis_ncbi_filtered/sample_46/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_46/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_46/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_47/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval/greedy
+copying results/analysis_ncbi_filtered/sample_47/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_47/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_47/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_48/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval/greedy
+copying results/analysis_ncbi_filtered/sample_48/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_48/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_48/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_49/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval/greedy
+copying results/analysis_ncbi_filtered/sample_49/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_49/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_49/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_5/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval/greedy
+copying results/analysis_ncbi_filtered/sample_5/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_5/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_5/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_50/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval/greedy
+copying results/analysis_ncbi_filtered/sample_50/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_50/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_50/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_51/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval/greedy
+copying results/analysis_ncbi_filtered/sample_51/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_51/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_51/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_52/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval/greedy
+copying results/analysis_ncbi_filtered/sample_52/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_52/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_52/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_55/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval/greedy
+copying results/analysis_ncbi_filtered/sample_55/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_55/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_55/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_56/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval/greedy
+copying results/analysis_ncbi_filtered/sample_56/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_56/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_56/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_62/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval/greedy
+copying results/analysis_ncbi_filtered/sample_62/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_62/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_62/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_63/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval/greedy
+copying results/analysis_ncbi_filtered/sample_63/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_63/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_63/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_64/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval/greedy
+copying results/analysis_ncbi_filtered/sample_64/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_64/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_64/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_65/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval/greedy
+copying results/analysis_ncbi_filtered/sample_65/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_65/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_65/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_66/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval/greedy
+copying results/analysis_ncbi_filtered/sample_66/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_66/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_66/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_76/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval/greedy
+copying results/analysis_ncbi_filtered/sample_76/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_76/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_76/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_85/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval/greedy
+copying results/analysis_ncbi_filtered/sample_85/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_85/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_85/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_86/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval/greedy
+copying results/analysis_ncbi_filtered/sample_86/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_86/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_86/eval/plasmidspades
+copying results/analysis_ncbi_filtered/sample_87/eval/greedy/greedy_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval/greedy
+copying results/analysis_ncbi_filtered/sample_87/eval/mob_recon/mob_recon_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval/mob_recon
+copying results/analysis_ncbi_filtered/sample_87/eval/plasmidspades/plasmidspades_eval.csv -> HyAsP-1.0.0/results/analysis_ncbi_filtered/sample_87/eval/plasmidspades
+copying results/quast_results_mob_filtered/102_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/102_quast
+copying results/quast_results_mob_filtered/102_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/102_quast/contigs_reports
+copying results/quast_results_mob_filtered/107_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/107_quast
+copying results/quast_results_mob_filtered/107_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/107_quast/contigs_reports
+copying results/quast_results_mob_filtered/108_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/108_quast
+copying results/quast_results_mob_filtered/108_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/108_quast/contigs_reports
+copying results/quast_results_mob_filtered/109_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/109_quast
+copying results/quast_results_mob_filtered/109_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/109_quast/contigs_reports
+copying results/quast_results_mob_filtered/110_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/110_quast
+copying results/quast_results_mob_filtered/110_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/110_quast/contigs_reports
+copying results/quast_results_mob_filtered/111_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/111_quast
+copying results/quast_results_mob_filtered/111_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/111_quast/contigs_reports
+copying results/quast_results_mob_filtered/112_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/112_quast
+copying results/quast_results_mob_filtered/112_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/112_quast/contigs_reports
+copying results/quast_results_mob_filtered/113_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/113_quast
+copying results/quast_results_mob_filtered/113_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/113_quast/contigs_reports
+copying results/quast_results_mob_filtered/114_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/114_quast
+copying results/quast_results_mob_filtered/114_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/114_quast/contigs_reports
+copying results/quast_results_mob_filtered/115_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/115_quast
+copying results/quast_results_mob_filtered/115_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/115_quast/contigs_reports
+copying results/quast_results_mob_filtered/116_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/116_quast
+copying results/quast_results_mob_filtered/116_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/116_quast/contigs_reports
+copying results/quast_results_mob_filtered/117_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/117_quast
+copying results/quast_results_mob_filtered/117_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/117_quast/contigs_reports
+copying results/quast_results_mob_filtered/118_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/118_quast
+copying results/quast_results_mob_filtered/118_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/118_quast/contigs_reports
+copying results/quast_results_mob_filtered/119_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/119_quast
+copying results/quast_results_mob_filtered/119_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/119_quast/contigs_reports
+copying results/quast_results_mob_filtered/120_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/120_quast
+copying results/quast_results_mob_filtered/120_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/120_quast/contigs_reports
+copying results/quast_results_mob_filtered/121_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/121_quast
+copying results/quast_results_mob_filtered/121_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/121_quast/contigs_reports
+copying results/quast_results_mob_filtered/122_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/122_quast
+copying results/quast_results_mob_filtered/122_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/122_quast/contigs_reports
+copying results/quast_results_mob_filtered/123_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/123_quast
+copying results/quast_results_mob_filtered/123_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/123_quast/contigs_reports
+copying results/quast_results_mob_filtered/124_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/124_quast
+copying results/quast_results_mob_filtered/124_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/124_quast/contigs_reports
+copying results/quast_results_mob_filtered/129_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/129_quast
+copying results/quast_results_mob_filtered/129_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/129_quast/contigs_reports
+copying results/quast_results_mob_filtered/133_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/133_quast
+copying results/quast_results_mob_filtered/133_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/133_quast/contigs_reports
+copying results/quast_results_mob_filtered/15_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/15_quast
+copying results/quast_results_mob_filtered/15_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/15_quast/contigs_reports
+copying results/quast_results_mob_filtered/16_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/16_quast
+copying results/quast_results_mob_filtered/16_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/16_quast/contigs_reports
+copying results/quast_results_mob_filtered/18_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/18_quast
+copying results/quast_results_mob_filtered/18_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/18_quast/contigs_reports
+copying results/quast_results_mob_filtered/19_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/19_quast
+copying results/quast_results_mob_filtered/19_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/19_quast/contigs_reports
+copying results/quast_results_mob_filtered/1_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/1_quast
+copying results/quast_results_mob_filtered/1_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/1_quast/contigs_reports
+copying results/quast_results_mob_filtered/23_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/23_quast
+copying results/quast_results_mob_filtered/23_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/23_quast/contigs_reports
+copying results/quast_results_mob_filtered/24_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/24_quast
+copying results/quast_results_mob_filtered/24_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/24_quast/contigs_reports
+copying results/quast_results_mob_filtered/25_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/25_quast
+copying results/quast_results_mob_filtered/25_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/25_quast/contigs_reports
+copying results/quast_results_mob_filtered/26_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/26_quast
+copying results/quast_results_mob_filtered/26_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/26_quast/contigs_reports
+copying results/quast_results_mob_filtered/27_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/27_quast
+copying results/quast_results_mob_filtered/27_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/27_quast/contigs_reports
+copying results/quast_results_mob_filtered/28_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/28_quast
+copying results/quast_results_mob_filtered/28_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/28_quast/contigs_reports
+copying results/quast_results_mob_filtered/30_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/30_quast
+copying results/quast_results_mob_filtered/30_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/30_quast/contigs_reports
+copying results/quast_results_mob_filtered/31_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/31_quast
+copying results/quast_results_mob_filtered/31_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/31_quast/contigs_reports
+copying results/quast_results_mob_filtered/32_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/32_quast
+copying results/quast_results_mob_filtered/32_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/32_quast/contigs_reports
+copying results/quast_results_mob_filtered/33_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/33_quast
+copying results/quast_results_mob_filtered/33_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/33_quast/contigs_reports
+copying results/quast_results_mob_filtered/34_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/34_quast
+copying results/quast_results_mob_filtered/34_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/34_quast/contigs_reports
+copying results/quast_results_mob_filtered/35_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/35_quast
+copying results/quast_results_mob_filtered/35_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/35_quast/contigs_reports
+copying results/quast_results_mob_filtered/36_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/36_quast
+copying results/quast_results_mob_filtered/36_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/36_quast/contigs_reports
+copying results/quast_results_mob_filtered/37_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/37_quast
+copying results/quast_results_mob_filtered/37_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/37_quast/contigs_reports
+copying results/quast_results_mob_filtered/38_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/38_quast
+copying results/quast_results_mob_filtered/38_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/38_quast/contigs_reports
+copying results/quast_results_mob_filtered/39_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/39_quast
+copying results/quast_results_mob_filtered/39_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/39_quast/contigs_reports
+copying results/quast_results_mob_filtered/40_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/40_quast
+copying results/quast_results_mob_filtered/40_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/40_quast/contigs_reports
+copying results/quast_results_mob_filtered/41_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/41_quast
+copying results/quast_results_mob_filtered/41_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/41_quast/contigs_reports
+copying results/quast_results_mob_filtered/42_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/42_quast
+copying results/quast_results_mob_filtered/42_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/42_quast/contigs_reports
+copying results/quast_results_mob_filtered/44_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/44_quast
+copying results/quast_results_mob_filtered/44_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/44_quast/contigs_reports
+copying results/quast_results_mob_filtered/45_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/45_quast
+copying results/quast_results_mob_filtered/45_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/45_quast/contigs_reports
+copying results/quast_results_mob_filtered/46_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/46_quast
+copying results/quast_results_mob_filtered/46_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/46_quast/contigs_reports
+copying results/quast_results_mob_filtered/47_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/47_quast
+copying results/quast_results_mob_filtered/47_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/47_quast/contigs_reports
+copying results/quast_results_mob_filtered/48_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/48_quast
+copying results/quast_results_mob_filtered/48_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/48_quast/contigs_reports
+copying results/quast_results_mob_filtered/49_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/49_quast
+copying results/quast_results_mob_filtered/49_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/49_quast/contigs_reports
+copying results/quast_results_mob_filtered/50_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/50_quast
+copying results/quast_results_mob_filtered/50_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/50_quast/contigs_reports
+copying results/quast_results_mob_filtered/51_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/51_quast
+copying results/quast_results_mob_filtered/51_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/51_quast/contigs_reports
+copying results/quast_results_mob_filtered/52_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/52_quast
+copying results/quast_results_mob_filtered/52_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/52_quast/contigs_reports
+copying results/quast_results_mob_filtered/55_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/55_quast
+copying results/quast_results_mob_filtered/55_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/55_quast/contigs_reports
+copying results/quast_results_mob_filtered/56_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/56_quast
+copying results/quast_results_mob_filtered/56_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/56_quast/contigs_reports
+copying results/quast_results_mob_filtered/5_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/5_quast
+copying results/quast_results_mob_filtered/5_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/5_quast/contigs_reports
+copying results/quast_results_mob_filtered/62_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/62_quast
+copying results/quast_results_mob_filtered/62_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/62_quast/contigs_reports
+copying results/quast_results_mob_filtered/63_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/63_quast
+copying results/quast_results_mob_filtered/63_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/63_quast/contigs_reports
+copying results/quast_results_mob_filtered/64_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/64_quast
+copying results/quast_results_mob_filtered/64_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/64_quast/contigs_reports
+copying results/quast_results_mob_filtered/65_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/65_quast
+copying results/quast_results_mob_filtered/65_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/65_quast/contigs_reports
+copying results/quast_results_mob_filtered/66_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/66_quast
+copying results/quast_results_mob_filtered/66_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/66_quast/contigs_reports
+copying results/quast_results_mob_filtered/76_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/76_quast
+copying results/quast_results_mob_filtered/76_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/76_quast/contigs_reports
+copying results/quast_results_mob_filtered/85_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/85_quast
+copying results/quast_results_mob_filtered/85_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/85_quast/contigs_reports
+copying results/quast_results_mob_filtered/86_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/86_quast
+copying results/quast_results_mob_filtered/86_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/86_quast/contigs_reports
+copying results/quast_results_mob_filtered/87_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/87_quast
+copying results/quast_results_mob_filtered/87_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_mob_filtered/87_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/102_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/102_quast
+copying results/quast_results_ncbi_filtered/102_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/102_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/107_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/107_quast
+copying results/quast_results_ncbi_filtered/107_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/107_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/108_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/108_quast
+copying results/quast_results_ncbi_filtered/108_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/108_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/109_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/109_quast
+copying results/quast_results_ncbi_filtered/109_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/109_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/110_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/110_quast
+copying results/quast_results_ncbi_filtered/110_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/110_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/111_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/111_quast
+copying results/quast_results_ncbi_filtered/111_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/111_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/112_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/112_quast
+copying results/quast_results_ncbi_filtered/112_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/112_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/113_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/113_quast
+copying results/quast_results_ncbi_filtered/113_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/113_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/114_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/114_quast
+copying results/quast_results_ncbi_filtered/114_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/114_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/115_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/115_quast
+copying results/quast_results_ncbi_filtered/115_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/115_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/116_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/116_quast
+copying results/quast_results_ncbi_filtered/116_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/116_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/117_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/117_quast
+copying results/quast_results_ncbi_filtered/117_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/117_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/118_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/118_quast
+copying results/quast_results_ncbi_filtered/118_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/118_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/119_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/119_quast
+copying results/quast_results_ncbi_filtered/119_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/119_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/120_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/120_quast
+copying results/quast_results_ncbi_filtered/120_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/120_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/121_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/121_quast
+copying results/quast_results_ncbi_filtered/121_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/121_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/122_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/122_quast
+copying results/quast_results_ncbi_filtered/122_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/122_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/123_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/123_quast
+copying results/quast_results_ncbi_filtered/123_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/123_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/124_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/124_quast
+copying results/quast_results_ncbi_filtered/124_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/124_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/129_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/129_quast
+copying results/quast_results_ncbi_filtered/129_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/129_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/133_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/133_quast
+copying results/quast_results_ncbi_filtered/133_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/133_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/15_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/15_quast
+copying results/quast_results_ncbi_filtered/15_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/15_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/16_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/16_quast
+copying results/quast_results_ncbi_filtered/16_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/16_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/18_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/18_quast
+copying results/quast_results_ncbi_filtered/18_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/18_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/19_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/19_quast
+copying results/quast_results_ncbi_filtered/19_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/19_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/1_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/1_quast
+copying results/quast_results_ncbi_filtered/1_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/1_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/23_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/23_quast
+copying results/quast_results_ncbi_filtered/23_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/23_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/24_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/24_quast
+copying results/quast_results_ncbi_filtered/24_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/24_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/25_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/25_quast
+copying results/quast_results_ncbi_filtered/25_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/25_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/26_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/26_quast
+copying results/quast_results_ncbi_filtered/26_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/26_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/27_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/27_quast
+copying results/quast_results_ncbi_filtered/27_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/27_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/28_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/28_quast
+copying results/quast_results_ncbi_filtered/28_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/28_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/30_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/30_quast
+copying results/quast_results_ncbi_filtered/30_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/30_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/31_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/31_quast
+copying results/quast_results_ncbi_filtered/31_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/31_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/32_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/32_quast
+copying results/quast_results_ncbi_filtered/32_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/32_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/33_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/33_quast
+copying results/quast_results_ncbi_filtered/33_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/33_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/34_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/34_quast
+copying results/quast_results_ncbi_filtered/34_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/34_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/35_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/35_quast
+copying results/quast_results_ncbi_filtered/35_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/35_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/36_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/36_quast
+copying results/quast_results_ncbi_filtered/36_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/36_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/37_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/37_quast
+copying results/quast_results_ncbi_filtered/37_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/37_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/38_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/38_quast
+copying results/quast_results_ncbi_filtered/38_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/38_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/39_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/39_quast
+copying results/quast_results_ncbi_filtered/39_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/39_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/40_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/40_quast
+copying results/quast_results_ncbi_filtered/40_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/40_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/41_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/41_quast
+copying results/quast_results_ncbi_filtered/41_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/41_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/42_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/42_quast
+copying results/quast_results_ncbi_filtered/42_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/42_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/44_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/44_quast
+copying results/quast_results_ncbi_filtered/44_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/44_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/45_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/45_quast
+copying results/quast_results_ncbi_filtered/45_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/45_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/46_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/46_quast
+copying results/quast_results_ncbi_filtered/46_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/46_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/47_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/47_quast
+copying results/quast_results_ncbi_filtered/47_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/47_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/48_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/48_quast
+copying results/quast_results_ncbi_filtered/48_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/48_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/49_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/49_quast
+copying results/quast_results_ncbi_filtered/49_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/49_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/50_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/50_quast
+copying results/quast_results_ncbi_filtered/50_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/50_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/51_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/51_quast
+copying results/quast_results_ncbi_filtered/51_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/51_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/52_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/52_quast
+copying results/quast_results_ncbi_filtered/52_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/52_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/55_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/55_quast
+copying results/quast_results_ncbi_filtered/55_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/55_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/56_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/56_quast
+copying results/quast_results_ncbi_filtered/56_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/56_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/5_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/5_quast
+copying results/quast_results_ncbi_filtered/5_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/5_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/62_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/62_quast
+copying results/quast_results_ncbi_filtered/62_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/62_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/63_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/63_quast
+copying results/quast_results_ncbi_filtered/63_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/63_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/64_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/64_quast
+copying results/quast_results_ncbi_filtered/64_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/64_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/65_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/65_quast
+copying results/quast_results_ncbi_filtered/65_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/65_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/66_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/66_quast
+copying results/quast_results_ncbi_filtered/66_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/66_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/76_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/76_quast
+copying results/quast_results_ncbi_filtered/76_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/76_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/85_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/85_quast
+copying results/quast_results_ncbi_filtered/85_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/85_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/86_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/86_quast
+copying results/quast_results_ncbi_filtered/86_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/86_quast/contigs_reports
+copying results/quast_results_ncbi_filtered/87_quast/report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/87_quast
+copying results/quast_results_ncbi_filtered/87_quast/contigs_reports/misassemblies_report.tsv -> HyAsP-1.0.0/results/quast_results_ncbi_filtered/87_quast/contigs_reports
+copying results/recycler_outputs/recycler_scoring_results.csv -> HyAsP-1.0.0/results/recycler_outputs
+copying results/recycler_outputs/eval/102_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/107_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/108_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/109_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/110_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/111_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/112_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/113_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/114_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/115_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/116_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/117_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/118_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/119_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/120_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/121_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/122_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/123_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/124_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/129_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/133_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/15_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/16_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/18_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/19_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/1_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/23_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/24_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/25_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/26_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/27_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/28_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/30_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/31_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/32_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/33_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/34_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/35_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/36_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/37_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/38_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/39_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/40_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/41_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/42_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/44_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/45_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/46_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/47_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/48_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/49_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/50_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/51_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/52_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/55_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/56_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/5_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/62_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/63_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/64_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/65_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/66_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/76_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/85_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/86_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/eval/87_recycler_eval.csv -> HyAsP-1.0.0/results/recycler_outputs/eval
+copying results/recycler_outputs/quast/reports/102_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/102_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/107_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/107_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/108_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/108_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/109_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/109_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/110_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/110_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/111_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/111_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/112_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/112_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/113_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/113_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/114_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/114_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/115_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/115_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/116_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/116_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/117_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/117_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/118_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/118_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/119_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/119_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/120_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/120_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/121_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/121_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/122_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/122_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/123_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/123_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/124_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/124_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/129_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/129_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/133_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/15_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/16_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/18_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/19_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/19_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/1_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/24_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/24_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/25_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/26_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/26_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/28_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/30_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/30_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/31_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/32_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/34_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/36_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/38_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/38_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/39_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/39_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/41_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/41_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/42_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/44_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/51_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/52_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/55_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/55_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/5_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/62_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/63_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/64_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/64_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/65_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/66_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/66_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/76_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/76_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/85_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/87_misassemblies_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying results/recycler_outputs/quast/reports/87_report.tsv -> HyAsP-1.0.0/results/recycler_outputs/quast/reports
+copying singularity/hyasp_only.def -> HyAsP-1.0.0/singularity
+copying singularity/hyasp_only.img -> HyAsP-1.0.0/singularity
+copying singularity/hyasp_pipeline.def -> HyAsP-1.0.0/singularity
+copying singularity/hyasp_pipeline.img -> HyAsP-1.0.0/singularity
+Writing HyAsP-1.0.0/setup.cfg
+creating dist
+Creating tar archive
+removing 'HyAsP-1.0.0' (and everything under it)
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing ./dist/HyAsP-1.0.0.tar.gz
+Requirement already satisfied: biopython>=1.71 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_hyasp/lib/python3.7/site-packages (from HyAsP==1.0.0) (1.79+computecanada)
+Requirement already satisfied: numpy>=1.14.3 in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (from HyAsP==1.0.0) (1.17.4)
+Requirement already satisfied: pandas>=0.22.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_hyasp/lib/python3.7/site-packages (from HyAsP==1.0.0) (1.3.5+computecanada)
+Requirement already satisfied: pytz>=2017.3 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_hyasp/lib/python3.7/site-packages (from pandas>=0.22.0->HyAsP==1.0.0) (2022.1+computecanada)
+Requirement already satisfied: python-dateutil>=2.7.3 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_hyasp/lib/python3.7/site-packages (from pandas>=0.22.0->HyAsP==1.0.0) (2.8.2+computecanada)
+Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/gentoo/2020/usr/lib64/python3.7/site-packages (from python-dateutil>=2.7.3->pandas>=0.22.0->HyAsP==1.0.0) (1.14.0)
+Installing collected packages: HyAsP
+  Running setup.py install for HyAsP: started
+    Running setup.py install for HyAsP: finished with status 'done'
+Successfully installed HyAsP-1.0.0
