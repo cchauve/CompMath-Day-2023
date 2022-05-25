@@ -6,7 +6,7 @@
 #SBATCH --account=def-chauvec
 #SBATCH --array=1-2
 #SBATCH --output=%A_%a.log
-#SBATCH --job-name=plasgraph
+#SBATCH --job-name=plasclass
 
 # Environment variables
 source ../../config.sh
@@ -17,15 +17,15 @@ EXP_DIR=${REPO_HOME}/exp/plasgraph
 OUT_DIR=${EXP_DIR}/results/${SAMPLE}
 mkdir -p ${OUT_DIR}
 
-# Preparing input: assembly graph
-cp ${REPO_HOME}/data/assembly_graphs/${SAMPLE}.assembly.gfa.gz ${EXP_DIR}/tmp
-gunzip ${EXP_DIR}/tmp/${SAMPLE}.assembly.gfa.gz
-GFA=${EXP_DIR}/tmp/${SAMPLE}.assembly.gfa
+# Preparing input: assembly contigs
+cp ${REPO_HOME}/data/assembly_contigs/${SAMPLE}.scaffolds.fa.gz ${EXP_DIR}/tmp
+gunzip ${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa.gz
+FA=${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa
 
-# Running plASgraph
-source ${TOOLS_DIR}/env_plasgraph/bin/activate
-cd ${TOOLS_DIR}/plASgraph
-python plASgraph.py -i ${GFA} -o ${OUT_DIR}/${SAMPLE}_class.csv --draw_graph
+# Running plasclass
+source ${TOOLS_DIR}/env_plasclass/bin/activate
+cd ${TOOLS_DIR}/PlasClass
+python classify_fasta.py -f ${FA} -o ${OUT_DIR}/${SAMPLE}_probs.tsv
 
 # Cleaning
-rm ${GFA}
+rm ${FA}
