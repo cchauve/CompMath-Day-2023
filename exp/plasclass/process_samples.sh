@@ -13,7 +13,7 @@ source ../../config.sh
 ## Sample ID
 SAMPLE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${REPO_HOME}/data/samples_id.txt)
 ## Experiment and output directory
-EXP_DIR=${REPO_HOME}/exp/plasgraph
+EXP_DIR=${REPO_HOME}/exp/plasclass
 OUT_DIR=${EXP_DIR}/results/${SAMPLE}
 mkdir -p ${OUT_DIR}
 
