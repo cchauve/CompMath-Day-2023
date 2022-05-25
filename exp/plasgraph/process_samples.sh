@@ -18,9 +18,9 @@ OUT_DIR=${EXP_DIR}/results/${SAMPLE}
 mkdir -p ${OUT_DIR}
 
 # Preparing input: assembly graph
-cp ${REPO_HOME}/data/assembly_graphs/${SAMPLE}.gfa.gz ${EXP_DIR}/tmp
-gunzip ${EXP_DIR}/tmp/${SAMPLE}.gfa.gz
-GFA=${EXP_DIR}/tmp/${SAMPLE}.gfa
+cp ${REPO_HOME}/data/assembly_graphs/${SAMPLE}.assembly.gfa.gz ${EXP_DIR}/tmp
+gunzip ${EXP_DIR}/tmp/${SAMPLE}.assembly.gfa.gz
+GFA=${EXP_DIR}/tmp/${SAMPLE}.assembly.gfa
 
 # Running plASgraph
 source ${TOOLS_DIR}/env_plasgraph/bin/activate

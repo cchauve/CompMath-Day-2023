@@ -20,9 +20,9 @@ mkdir -p ${OUT_DIR}
 REF_DB=${REPO_HOME}/exp/hyasp_database_doi_10.15146_R33X2J__v2/doi_10.15146_R33X2J__v2_genes.fasta
 ## Sample assembly graph
 mkdir -p ${EXP_DIR}/tmp
-cp ${REPO_HOME}/data/assembly_graphs/${SAMPLE}.gfa.gz ${EXP_DIR}/tmp/
-gunzip ${EXP_DIR}/tmp/${SAMPLE}.gfa.gz
-GFA=${EXP_DIR}/tmp/${SAMPLE}.gfa
+cp ${REPO_HOME}/data/assembly_graphs/${SAMPLE}.assembly.gfa.gz ${EXP_DIR}/tmp/
+gunzip ${EXP_DIR}/tmp/${SAMPLE}.assembly.gfa.gz
+GFA=${EXP_DIR}/tmp/${SAMPLE}.assembly.gfa
 
 # Running HyAsP
 source ${TOOLS_DIR}/env_hyasp/bin/activate
