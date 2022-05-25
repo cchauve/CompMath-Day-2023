@@ -1,5 +1,4 @@
-# ARETE_PLASMIDS_PAPER
-
+# ARETE Plamids Comparison Paper
 ## Overview
 
 This repo contains the material and experiments for the plasmids paper of the ARETE grant.

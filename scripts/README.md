@@ -1,4 +1,4 @@
-# Plasmids comparison paper: scripts
+# ARETE Plamids Comparison Paper: scripts
 
 `GFA_utils.py`: modification of the assembly graph and predicted plasmids to remove/add back short contigs.  
 
