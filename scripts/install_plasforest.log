@@ -7,256 +7,29 @@ Due to MODULEPATH changes, the following have been reloaded:
 
 Ignoring pip: markers 'python_version < "3"' don't match your environment
 Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
-Requirement already satisfied: numpy in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (1.17.4)
+Collecting numpy
+Installing collected packages: numpy
+Successfully installed numpy-1.21.4+computecanada
 Ignoring pip: markers 'python_version < "3"' don't match your environment
 Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
 Collecting pandas
-  Loading KWallet
-  Loading SecretService
-  Loading Windows
-  Loading chainer
-  Loading macOS
 Collecting python-dateutil>=2.7.3 (from pandas)
+Requirement already satisfied: numpy>=1.17.3; platform_machine != "aarch64" and platform_machine != "arm64" and python_version < "3.10" in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasforest/lib/python3.7/site-packages (from pandas) (1.21.4+computecanada)
 Collecting pytz>=2017.3 (from pandas)
-Requirement already satisfied: numpy>=1.17.3; platform_machine != "aarch64" and platform_machine != "arm64" and python_version < "3.10" in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (from pandas) (1.17.4)
-Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/gentoo/2020/usr/lib64/python3.7/site-packages (from python-dateutil>=2.7.3->pandas) (1.14.0)
-Installing collected packages: python-dateutil, pytz, pandas
-Successfully installed pandas-1.3.5+computecanada python-dateutil-2.8.2+computecanada pytz-2022.1+computecanada
+Collecting six>=1.5 (from python-dateutil>=2.7.3->pandas)
+Installing collected packages: six, python-dateutil, pytz, pandas
+Successfully installed pandas-1.3.5+computecanada python-dateutil-2.8.2+computecanada pytz-2022.1+computecanada six-1.16.0+computecanada
 Ignoring pip: markers 'python_version < "3"' don't match your environment
 Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
 Collecting biopython
-  Loading KWallet
-  Loading SecretService
-  Loading Windows
-  Loading chainer
-  Loading macOS
-Requirement already satisfied: numpy in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (from biopython) (1.17.4)
+Requirement already satisfied: numpy in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasforest/lib/python3.7/site-packages (from biopython) (1.21.4+computecanada)
 Installing collected packages: biopython
 Successfully installed biopython-1.79+computecanada
 Ignoring pip: markers 'python_version < "3"' don't match your environment
 Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
-Collecting scikit-learn==0.22.2.post1
-  Loading KWallet
-  Loading SecretService
-  Loading Windows
-  Loading chainer
-  Loading macOS
-  Using cached https://files.pythonhosted.org/packages/e4/40/8bc77d8f536be0a892b37fff19fd81f15935e24724303480f85238ec7f22/scikit-learn-0.22.2.post1.tar.gz
-Requirement already satisfied: numpy>=1.11.0 in /home/chauvec/.local/lib/python3.7/site-packages/numpy-1.17.4-py3.7-linux-x86_64.egg (from scikit-learn==0.22.2.post1) (1.17.4)
-Collecting scipy>=0.17.0 (from scikit-learn==0.22.2.post1)
-Collecting joblib>=0.11 (from scikit-learn==0.22.2.post1)
-Installing collected packages: scipy, joblib, scikit-learn
-  Running setup.py install for scikit-learn: started
-    Running setup.py install for scikit-learn: still running...
-    Running setup.py install for scikit-learn: still running...
-    Running setup.py install for scikit-learn: still running...
-    Running setup.py install for scikit-learn: finished with status 'done'
-Successfully installed joblib-1.1.0+computecanada scikit-learn-0.22.2.post1 scipy-1.7.3+computecanada
-Ignoring pip: markers 'python_version < "3"' don't match your environment
-Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
-Requirement already satisfied: joblib in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasforest/lib/python3.7/site-packages (1.1.0+computecanada)
-Cloning into 'PlasForest'...
-Updating files:  81% (9/11)Updating files:  90% (10/11)Updating files: 100% (11/11)Updating files: 100% (11/11), done.
-plasforest.sav
-fatal: destination path 'NCBI_Mass_Downloader' already exists and is not an empty directory.
-The database is about to be downloaded.
-This may take a while.
-Downloading record 2401 to 2600 of 34594
-Downloading record 1 to 200 of 34594
-Downloading record 4801 to 5000 of 34594
-Downloading record 3601 to 3800 of 34594
-NCBI is not retuning sequence data or we're getting a Timeout. Trying the same chunk again in 8''.
-Downloading record 7201 to 7400 of 34594
-Downloading record 6001 to 6200 of 34594
-Downloading record 1201 to 1400 of 34594
-NCBI is not retuning sequence data or we're getting a Timeout. Trying the same chunk again in 8''.
-Downloading record 8401 to 8600 of 34594
-Downloading record 7401 to 7600 of 34594
-Downloading record 201 to 400 of 34594
-Downloading record 7601 to 7800 of 34594
-Downloading record 2601 to 2800 of 34594
-Downloading record 401 to 600 of 34594
-Downloading record 7801 to 8000 of 34594
-Downloading record 6201 to 6400 of 34594
-Downloading record 8001 to 8200 of 34594
-Downloading record 8601 to 8800 of 34594
-Downloading record 8201 to 8400 of 34594
-Downloading record 6401 to 6600 of 34594
-Downloading record 601 to 800 of 34594
-Downloading record 1401 to 1600 of 34594
-Downloading record 6601 to 6800 of 34594
-Downloading record 2801 to 3000 of 34594
-Downloading record 6801 to 7000 of 34594
-Downloading record 801 to 1000 of 34594
-Downloading record 7001 to 7200 of 34594
-Downloading record 1601 to 1800 of 34594
-Downloading record 8801 to 9000 of 34594
-Downloading record 9601 to 9800 of 34594
-Downloading record 10801 to 11000 of 34594
-Downloading record 3001 to 3200 of 34594
-Downloading record 9001 to 9200 of 34594
-Downloading record 9801 to 10000 of 34594
-Downloading record 3801 to 4000 of 34594
-Downloading record 11001 to 11200 of 34594
-Downloading record 9201 to 9400 of 34594
-Downloading record 1001 to 1200 of 34594
-Downloading record 10001 to 10200 of 34594
-Downloading record 9401 to 9600 of 34594
-Downloading record 1801 to 2000 of 34594
-Downloading record 3201 to 3400 of 34594
-Downloading record 10201 to 10400 of 34594
-Downloading record 11201 to 11400 of 34594
-Downloading record 12001 to 12200 of 34594
-Downloading record 2001 to 2200 of 34594
-Downloading record 11401 to 11600 of 34594
-Downloading record 5001 to 5200 of 34594
-Downloading record 10401 to 10600 of 34594
-Downloading record 12201 to 12400 of 34594
-Downloading record 11601 to 11800 of 34594
-Downloading record 10601 to 10800 of 34594
-Downloading record 12401 to 12600 of 34594
-Downloading record 5201 to 5400 of 34594
-Downloading record 12601 to 12800 of 34594
-Downloading record 13201 to 13400 of 34594
-Downloading record 2201 to 2400 of 34594
-Downloading record 3401 to 3600 of 34594
-Downloading record 11801 to 12000 of 34594
-Downloading record 4001 to 4200 of 34594
-Downloading record 13401 to 13600 of 34594
-Downloading record 12801 to 13000 of 34594
-Downloading record 14401 to 14600 of 34594
-Downloading record 14601 to 14800 of 34594
-Downloading record 13001 to 13200 of 34594
-Downloading record 5401 to 5600 of 34594
-Downloading record 13601 to 13800 of 34594
-Downloading record 15601 to 15800 of 34594
-Downloading record 13801 to 14000 of 34594
-Downloading record 14001 to 14200 of 34594
-Downloading record 15801 to 16000 of 34594
-Downloading record 5601 to 5800 of 34594
-Downloading record 14801 to 15000 of 34594
-Downloading record 14201 to 14400 of 34594
-Downloading record 16801 to 17000 of 34594
-Downloading record 16001 to 16200 of 34594
-Downloading record 4201 to 4400 of 34594
-Downloading record 18001 to 18200 of 34594
-Downloading record 5801 to 6000 of 34594
-Downloading record 16201 to 16400 of 34594
-Downloading record 19201 to 19400 of 34594
-Downloading record 15001 to 15200 of 34594
-Downloading record 17001 to 17200 of 34594
-Downloading record 20401 to 20600 of 34594
-Downloading record 15201 to 15400 of 34594
-Downloading record 19401 to 19600 of 34594
-Downloading record 20601 to 20800 of 34594
-Downloading record 16401 to 16600 of 34594
-Downloading record 19601 to 19800 of 34594
-Downloading record 19801 to 20000 of 34594
-Downloading record 16601 to 16800 of 34594
-Downloading record 20801 to 21000 of 34594
-Downloading record 15401 to 15600 of 34594
-Downloading record 20001 to 20200 of 34594
-Downloading record 21601 to 21800 of 34594
-Downloading record 20201 to 20400 of 34594
-Downloading record 21801 to 22000 of 34594
-Downloading record 22801 to 23000 of 34594
-Downloading record 17201 to 17400 of 34594
-Downloading record 23001 to 23200 of 34594
-Downloading record 18201 to 18400 of 34594
-Downloading record 22001 to 22200 of 34594
-Downloading record 17401 to 17600 of 34594
-Downloading record 23201 to 23400 of 34594
-Downloading record 22201 to 22400 of 34594
-Downloading record 18401 to 18600 of 34594
-Downloading record 17601 to 17800 of 34594
-Downloading record 23401 to 23600 of 34594
-Downloading record 23601 to 23800 of 34594
-Downloading record 21001 to 21200 of 34594
-Downloading record 18601 to 18800 of 34594
-Downloading record 22401 to 22600 of 34594
-Downloading record 24001 to 24200 of 34594
-Downloading record 21201 to 21400 of 34594
-Downloading record 22601 to 22800 of 34594
-Downloading record 18801 to 19000 of 34594
-Downloading record 24201 to 24400 of 34594
-Downloading record 21401 to 21600 of 34594
-Downloading record 19001 to 19200 of 34594
-Downloading record 25201 to 25400 of 34594
-Downloading record 17801 to 18000 of 34594
-Downloading record 24401 to 24600 of 34594
-Downloading record 24601 to 24800 of 34594
-Downloading record 26401 to 26600 of 34594
-Downloading record 28801 to 29000 of 34594
-Downloading record 25401 to 25600 of 34594
-Downloading record 27601 to 27800 of 34594
-Downloading record 24801 to 25000 of 34594
-Downloading record 26601 to 26800 of 34594
-Downloading record 29001 to 29200 of 34594
-Downloading record 27801 to 28000 of 34594
-Downloading record 25601 to 25800 of 34594
-Downloading record 29201 to 29400 of 34594
-Downloading record 26801 to 27000 of 34594
-Downloading record 23801 to 24000 of 34594
-Downloading record 25001 to 25200 of 34594
-Downloading record 28001 to 28200 of 34594
-Downloading record 29401 to 29600 of 34594
-Downloading record 25801 to 26000 of 34594
-Downloading record 27001 to 27200 of 34594
-Downloading record 28201 to 28400 of 34594
-Downloading record 26001 to 26200 of 34594
-Downloading record 30001 to 30200 of 34594
-Downloading record 31201 to 31400 of 34594
-Downloading record 27201 to 27400 of 34594
-Downloading record 29601 to 29800 of 34594
-Downloading record 28401 to 28600 of 34594
-Downloading record 26201 to 26400 of 34594
-Downloading record 29801 to 30000 of 34594
-Downloading record 31401 to 31600 of 34594
-Downloading record 30201 to 30400 of 34594
-Downloading record 27401 to 27600 of 34594
-Downloading record 33601 to 33800 of 34594
-Downloading record 32401 to 32600 of 34594
-Downloading record 28601 to 28800 of 34594
-Downloading record 31601 to 31800 of 34594
-Downloading record 33801 to 34000 of 34594
-Downloading record 30401 to 30600 of 34594
-Downloading record 31801 to 32000 of 34594
-Downloading record 32601 to 32800 of 34594
-Downloading record 30601 to 30800 of 34594
-Downloading record 32001 to 32200 of 34594
-Downloading record 30801 to 31000 of 34594
-Downloading record 32201 to 32400 of 34594
-Downloading record 31001 to 31200 of 34594
-Downloading record 4401 to 4600 of 34594
-Downloading record 32801 to 33000 of 34594
-Downloading record 34001 to 34200 of 34594
-Downloading record 34201 to 34400 of 34594
-Downloading record 34401 to 34594 of 34594
-Downloading record 33001 to 33200 of 34594
-Downloading record 33201 to 33400 of 34594
-Downloading record 33401 to 33600 of 34594
-Downloading record 4601 to 4800 of 34594
-Checking for sequences that did not download... Please wait.
-Downloading accession 1 to 34594 of 34594
-WARNING: Master record found and removed: NZ_CBTO000000000.1.
-All sequences were downloaded correctly. Good!
-Program finished without error.
-There are 2079 missing sequences.
-PlasForest may have reduced performances without these sequences.
-Do you want to download them? (y/n) Traceback (most recent call last):
-  File "check_and_download_database.py", line 92, in <module>
-    response = get_response(nmissing)
-  File "check_and_download_database.py", line 50, in get_response
-    response=input("Do you want to download them? (y/n) ")
-EOFError: EOF when reading a line
-
-
-Building a new DB, current time: 05/25/2022 10:45:48
-New DB name:   /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/PlasForest/plasmid_refseq.fasta
-New DB title:  plasmid_refseq.fasta
-Sequence type: Nucleotide
-Keep MBits: T
-Maximum file size: 1000000000B
-Adding sequences from FASTA; added 34593 sequences in 21.7975 seconds.
-
-
+Collecting scikit-learn>=0.22.2.post1
+Requirement already satisfied: numpy>=1.14.6 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_plasforest/lib/python3.7/site-packages (from scikit-learn>=0.22.2.post1) (1.21.4+computecanada)
+Collecting threadpoolctl>=2.0.0 (from scikit-learn>=0.22.2.post1)
+  Using cached https://files.pythonhosted.org/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl
+Collecting joblib>=0.11 (from scikit-learn>=0.22.2.post1)
+Collecting scipy>=1.1.0 (from scikit-learn>=0.22.2.post1)

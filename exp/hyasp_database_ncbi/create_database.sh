@@ -7,4 +7,4 @@
 
 source ../../config.sh
 source ${TOOLS_DIR}/env_hyasp/bin/activate
-hyasp create ncbi_database_genes.fasta -p plasmids.csv -b ncbi_blacklist.txt -d -l 500 -m 100 -t GenBank -v
+hyasp create ncbi_database_genes.fasta -p ncbi_plasmids.csv -b ncbi_blacklist.txt -d -l 500 -m 100 -t GenBank -v
