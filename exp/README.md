@@ -10,11 +10,10 @@
 
 `plasclass`: runs PlasClass. 2022-05-26: tested with success.  
 
-`mob_recon`: runs MOB-recon.
+`mob_recon`: runs MOB-recon. 2022-05-26: tested with success. 
 
-`plasforest`: runs PlasForest.
+`plasforest`: runs PlasForest. 2022-05-26: tested with success. 
 
-
-In each dirctory, the main script to run is `process_samples.sh`, that needs to be adjusted to replace the number of jobs in the array by the number of samples.
+In each directory, the main script to run is `process_samples.sh`, that needs to be adjusted to replace the number of jobs in the array by the number of samples.
 
 For a given sample `SAMPLE`, the results are in the directory `results/SAMPLE/`.
