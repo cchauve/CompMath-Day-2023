@@ -8,7 +8,7 @@ One assembly looks weird: SRR14026525.
 - Directory `assembly_contigs`: all assembly in contigs, for both *E. faecium* and *E. faecalis*. Gzipped.
 - Directory `metadata` contains <a href="http://quast.sourceforge.net/">QUAST</a> results for the assemblies.
 
-For a given sample `SAMPLE`, the assembly graph is in the file `assembly_graphs/SAMPLE.assembly.gfa.gz` and the contigs assembly in the file `assembly_contigs/SAMPLE.scaffoldfa.gz`.
+For a given sample `SAMPLE`, the assembly graph is in the file `assembly_graphs/SAMPLE.assembly.gfa.gz` and the contigs assembly in the file `assembly_contigs/SAMPLE.scaffolds.fa.gz`.
 
 Samples ID list, combined:
 ```
