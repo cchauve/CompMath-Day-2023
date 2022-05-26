@@ -16,4 +16,10 @@ git clone https://github.com/Shamir-Lab/SCAPP.git
 cd SCAPP
 python setup.py install --user
 
+cd ..
+
+git clone https://github.com/Shamir-Lab/PlasClass.git
+cd PlasClass
+python setup.py install --user
+
 deactivate
