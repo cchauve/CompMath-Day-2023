@@ -5,7 +5,7 @@
 #SBATCH --time=1:00:00
 #SBATCH --account=def-chauvec
 #SBATCH --array=1-2
-#SBATCH --output=plasclass_%A_%a.log
+#SBATCH --output=PlasClass_%A_%a.log
 #SBATCH --job-name=plasclass
 
 # Environment variables
@@ -23,7 +23,7 @@ gunzip ${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa.gz
 FA=${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa
 
 # Running plasclass
-source ${TOOLS_DIR}/env_plasclass/bin/activate
+source ${TOOLS_DIR}/env_scapp/bin/activate
 cd ${TOOLS_DIR}/PlasClass
 python classify_fasta.py -f ${FA} -o ${OUT_DIR}/${SAMPLE}_probs.tsv
 
