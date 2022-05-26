@@ -42,7 +42,7 @@ The short-read assembly graphs will be processed, using both the initial graph a
 
 and four or five binning tools:  
 - <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC, installed, tested]**,
-- <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY/CEDRIC, installed, database download fails]**,
+- <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY/CEDRIC, not installed, mob_init fails, we can et the results from Haley]**,
 - <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET, to install and test]** --PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
 - <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET, to install and test]**.
 - <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (NO)</a> **[NO: requires to realign the reads to a FASTG assembly graph]**.
