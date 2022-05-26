@@ -16,6 +16,7 @@ pip install pandas
 pip install biopython
 pip install 'scikit-learn>=0.22.2.post1'
 pip install joblib
+pip install requests
 
 cd ${TOOLS_DIR}
 git clone https://github.com/leaemiliepradier/PlasForest.git

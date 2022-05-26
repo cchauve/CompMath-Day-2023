@@ -7,7 +7,7 @@
 
 `install_plasgraph.sh`: installation of plASgraph together with a virtual environment env_plasgraph.  
 
-`install_plasforest.sh`: installation of PlasForest together with a virtual environment env_plasforest.  
+`install_plasforest.sh`: installation of PlasForest together with a virtual environment env_plasforest. Was not run through sbatch as it requires some input to download the NCBI database.  
 
 `install_scapp.sh`: installation of SCAPP wnd PlasClass ithin a virtual environment env_scapp. 
 
