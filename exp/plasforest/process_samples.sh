@@ -23,8 +23,8 @@ gunzip ${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa.gz
 FA=${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa
 
 # Running PlasForest
-source ${TOOLS_DIR}/env_plasforest/bin/activate
 module load StdEnv/2020  gcc/9.3.0 blast+/2.12.0
+source ${TOOLS_DIR}/env_plasforest/bin/activate
 cd ${TOOLS_DIR}/PlasForest
 python PlasForest.py -i ${FA} -o ${OUT_DIR}/${SAMPLE}_plasforest.csv -f -v --threads 6
 
