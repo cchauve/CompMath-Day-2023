@@ -7,10 +7,8 @@
 
 `install_plasgraph.sh`: installation of plASgraph together with a virtual environment env_plasgraph.  
 
-`install_plasclass.sh`: installation of PlasClass in environment env_plasclass.
-
 `install_plasforest.sh`: installation of PlasForest together with a virtual environment env_plasforest.  
 
-`install_scapp.sh`: installation of SCAPP within a virtual environment env_scapp. 
+`install_scapp.sh`: installation of SCAPP wnd PlasClass ithin a virtual environment env_scapp. 
 
 `install_mobsuite.sh`: installation of SCAPP within a virtual environment env_mobsuite.
