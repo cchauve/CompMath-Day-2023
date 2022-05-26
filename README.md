@@ -3,7 +3,7 @@
 
 This repo contains the material and experiments for the plasmids paper of the ARETE grant.
 
-The purpose of the paper is to analyze a large dataset of *E. faecium* samples for which hybrid short-reads and long-reads assemblies will be proevided.  
+The purpose of the paper is to analyze a large dataset of *E. faecalis* and *E. faecium* samples for which hybrid short-reads and long-reads assemblies will be provided.  
 
 The short-reads data were generated in 2017 using Illumina while the long-reads data were generated in 2021 usaing Oxford Nanopore.
 
@@ -13,7 +13,7 @@ The initial purpose of the work is to assess and compare the performances of sev
 
 ## Data
 
-**TO DO [ANIKET]**: provide an overview of the data and metadata.
+**TO DO [ANIKET]**: provide an overview of the data and metadata. 
 
 ## Data preparation
 
@@ -35,19 +35,19 @@ For each short-reads assembly, we will consider two versions of the assembly gra
 ## Experiments
 
 The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three or four classification tools:
-- <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC, installed]**,
-- <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC, installed]**,
-- <a href="https://github.com/Shamir-Lab/3CAC">3CAC (?, likely not as it also focus on phages)</a> **[CEDRIC]**,
-- <a href="https://github.com/leaemiliepradier/PlasForest">PlasForest</a> **[CEDRIC, installed]**,  
+- <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC, installed, tested]**,
+- <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC, installed, tested]**,
+- <a href="https://github.com/Shamir-Lab/3CAC">3CAC (NO)</a> **[NO: designed for metagenomic assembly graphs]**,
+- <a href="https://github.com/leaemiliepradier/PlasForest">PlasForest</a> **[CEDRIC, to re-install]**,  
 
 and four or five binning tools:  
-- <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC, installed]**,
-- <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY/ANIKET, to install]**,
-- <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET, to install]** --PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
-- <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET, to install]**.
-- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (?)</a> **[ANIKET, installed]** (using different configurations with plasmid scores).
+- <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC, installed, tested]**,
+- <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY/ANIKET, installed]**,
+- <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET, to install and test]** --PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
+- <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET, to install and test]**.
+- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (NO)</a> **[NO: requires to realign the reads to a FASTG assembly graph]**.
 
-Moreover, the plasmids predicted by each method should be typed using MOB-typer **[ANIKET]**.
+Moreover, the plasmids predicted by each method should be typed using MOB-typer **[ANIKET, to test]**.
 
 The results will be evaluated using <a href="https://github.com/acme92/PlasEval">PlasEval</a>.
 
