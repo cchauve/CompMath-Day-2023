@@ -5,11 +5,10 @@
 One assembly looks weird: SRR14026525.  
 
 - Directory `assembly_graphs`: all assembly graphs, in <a href="https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md">GFA 1</a> format, for both *E. faecium* and *E. faecalis*. Gzipped.  
-- Directory `assembly_contigs`: all assembly in contigs, for both *E. faecium* and *E. faecalis*. Gzipped.  
+- Directory `assembly_contigs`: all assembly in contigs, for both *E. faecium* and *E. faecalis*. Gzipped.
+- Directory `metadata` contains <a href="http://quast.sourceforge.net/">QUAST</a> results for the assemblies.
 
 For a given sample `SAMPLE`, the assembly graph is in the file `assembly_graphs/SAMPLE.assembly.gfa.gz` and the contigs assembly in the file `assembly_contigs/SAMPLE.scaffoldfa.gz`.
-
-The directory `metadata` contains <a href="http://quast.sourceforge.net/">QUAST</a> results fr the assemblies.
 
 Samples ID list, combined:
 ```
