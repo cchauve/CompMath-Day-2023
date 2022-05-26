@@ -2,30 +2,28 @@
 Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
 
 
-Due to MODULEPATH changes, the following have been reloaded:
-  1) openmpi/4.0.3
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
 
 Ignoring pip: markers 'python_version < "3"' don't match your environment
 Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
-Collecting mob_suite==3.0.3
-  Using cached https://files.pythonhosted.org/packages/4c/08/c509a168fcadb04f5124a50827ec58a8c598b2c24032fc38cf488e0488c1/mob_suite-3.0.3.tar.gz
-Collecting numpy<2,>=1.11.1 (from mob_suite==3.0.3)
-Collecting tables<4,>=3.3.0 (from mob_suite==3.0.3)
-Collecting pandas<=1.0.5,>=0.22.0 (from mob_suite==3.0.3)
-Collecting biopython<2,>=1.70 (from mob_suite==3.0.3)
-Collecting pycurl<8,>=7.43.0 (from mob_suite==3.0.3)
-Collecting scipy<2,>=1.1.0 (from mob_suite==3.0.3)
-Collecting ete3<4,>=3.0 (from mob_suite==3.0.3)
-Collecting six<2,>=1.10 (from mob_suite==3.0.3)
-Collecting pyqt5<6,>=5.0 (from mob_suite==3.0.3)
-Collecting packaging (from tables<4,>=3.3.0->mob_suite==3.0.3)
-Collecting numexpr>=2.6.2 (from tables<4,>=3.3.0->mob_suite==3.0.3)
-Collecting pytz>=2017.2 (from pandas<=1.0.5,>=0.22.0->mob_suite==3.0.3)
-Collecting python-dateutil>=2.6.1 (from pandas<=1.0.5,>=0.22.0->mob_suite==3.0.3)
-Collecting PyQt5-sip<13,>=12.8 (from pyqt5<6,>=5.0->mob_suite==3.0.3)
-Collecting pyparsing!=3.0.5,>=2.0.2 (from packaging->tables<4,>=3.3.0->mob_suite==3.0.3)
-  Using cached https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl
-Installing collected packages: numpy, pyparsing, packaging, numexpr, tables, pytz, six, python-dateutil, pandas, biopython, pycurl, scipy, ete3, PyQt5-sip, pyqt5, mob-suite
-  Running setup.py install for mob-suite: started
-    Running setup.py install for mob-suite: finished with status 'done'
-Successfully installed PyQt5-sip-12.9.0+computecanada biopython-1.79+computecanada ete3-3.1.2+computecanada mob-suite-3.0.3 numexpr-2.7.3+computecanada numpy-1.21.4+computecanada packaging-21.3+computecanada pandas-1.0.3+computecanada pycurl-7.43.0.2+computecanada pyparsing-3.0.9 pyqt5-5.15.1+computecanada python-dateutil-2.8.2+computecanada pytz-2022.1+computecanada scipy-1.7.3+computecanada six-1.16.0+computecanada tables-3.7.0+computecanada
+Requirement already satisfied: mob_suite==3.0.3 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: numpy<2,>=1.11.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (1.21.4+computecanada)
+Requirement already satisfied: tables<4,>=3.3.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (3.7.0+computecanada)
+Requirement already satisfied: pandas<=1.0.5,>=0.22.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (1.0.3+computecanada)
+Requirement already satisfied: biopython<2,>=1.70 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (1.79+computecanada)
+Requirement already satisfied: pycurl<8,>=7.43.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (7.43.0.2+computecanada)
+Requirement already satisfied: scipy<2,>=1.1.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (1.7.3+computecanada)
+Requirement already satisfied: ete3<4,>=3.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (3.1.2+computecanada)
+Requirement already satisfied: six<2,>=1.10 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (1.16.0+computecanada)
+Requirement already satisfied: pyqt5<6,>=5.0 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from mob_suite==3.0.3) (5.15.1+computecanada)
+Requirement already satisfied: packaging in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from tables<4,>=3.3.0->mob_suite==3.0.3) (21.3+computecanada)
+Requirement already satisfied: numexpr>=2.6.2 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from tables<4,>=3.3.0->mob_suite==3.0.3) (2.7.3+computecanada)
+Requirement already satisfied: pytz>=2017.2 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from pandas<=1.0.5,>=0.22.0->mob_suite==3.0.3) (2022.1+computecanada)
+Requirement already satisfied: python-dateutil>=2.6.1 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from pandas<=1.0.5,>=0.22.0->mob_suite==3.0.3) (2.8.2+computecanada)
+Requirement already satisfied: PyQt5-sip<13,>=12.8 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from pyqt5<6,>=5.0->mob_suite==3.0.3) (12.9.0+computecanada)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages (from packaging->tables<4,>=3.3.0->mob_suite==3.0.3) (3.0.9)
+2022-05-26 11:23:38,884 mob_suite.utils INFO: Database directory folder already exists at /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/databases [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:131]
+2022-05-26 11:23:38,886 mob_suite.utils INFO: Lock file found at /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/databases/.lock. Waiting for other processes to finish database init ... [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:150]
+2022-05-26 11:23:38,886 mob_suite.utils INFO: Elapsed time 24 min. Will continue processing after 16 min mark. [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:151]
+2022-05-26 11:23:38,886 mob_suite.utils INFO: Elapsed time 24 min. Assuming previous process completed all init steps. Continue ... [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:153]
+2022-05-26 11:23:38,887 mob_suite.utils INFO: Lock file no longer exists. Assuming init process completed successfully [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:160]

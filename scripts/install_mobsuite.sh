@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --time=16:00:00
-#SBATCH --mem=16G
+#SBATCH --mem=32G
 #SBATCH --account=def-chauvec
 #SBATCH --output=install_mobsuite.log
 
