@@ -1,0 +1,18 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/4.0.3
+
+2022-05-26 15:04:37,116 mob_suite.utils INFO: Database directory folder already exists at /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/databases [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:131]
+2022-05-26 15:04:37,140 mob_suite.utils INFO: Placed lock file at /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/databases/.lock [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:142]
+2022-05-26 15:04:37,140 mob_suite.utils INFO: Initializing databases...this will take some time [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:165]
+2022-05-26 15:04:37,141 mob_suite.utils INFO: Downloading databases...this will take some time [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:178]
+2022-05-26 15:04:37,141 mob_suite.utils INFO: Downloading databases successful, now building databases at /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/databases [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:191]
+2022-05-26 15:04:37,141 mob_suite.utils INFO: Decompressing /project/6069942/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/databases/data.tar.gz [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:107]
+2022-05-26 15:04:57,947 mob_suite.utils INFO: Building repetitive mask database [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:204]
+2022-05-26 15:04:59,825 mob_suite.utils INFO: Building complete plasmid database [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:208]
+2022-05-26 15:05:13,919 mob_suite.utils INFO: Sketching complete plasmid database [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:212]
+2022-05-26 15:06:52,503 mob_suite.utils INFO: Init ete3 library ... [in /home/chauvec/projects/ctb-chauvec/PLASMIDS/ARETE_PLASMIDS_PAPER/tools/env_mobsuite/lib/python3.7/site-packages/mob_suite/mob_init.py:224]
+/var/spool/slurmd/job34592278/slurm_script: line 14:  5863 Segmentation fault      (core dumped) mob_init
