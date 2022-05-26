@@ -10,7 +10,7 @@
 
 `plasclass`: runs PlasClass. 2022-05-26: tested with success.  
 
-`mob_recon`: runs MOB-recon. 2022-05-26: tested with success. 
+`mob_recon`: runs MOB-recon. 2022-05-26: tested, database download fails. 
 
 `plasforest`: runs PlasForest. 2022-05-26: tested with success. 
 
