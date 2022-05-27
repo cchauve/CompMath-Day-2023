@@ -55,4 +55,6 @@ The results will be evaluated using <a href="https://github.com/acme92/PlasEval"
 
 ## Remarks
 
-In order to ease analysis, we should decide of a format for plasmid bins and contig scores that would be used for input files of the analysis, and so each method should come with a script that reformats its output.
+In order to ease analysis, we should decide of a format for plasmid bins and contig scores that would be used for input files of the analysis, and so each method should come with a script that reformats its output.  
+
+Methodological suggestions: filter input graph to remove sure chromosomal contigs, post-process the results.
