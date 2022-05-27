@@ -30,11 +30,11 @@ From the contigs features, we will determine which ones are plasmid, which ones 
 
 For each short-reads assembly, we will consider two versions of the assembly graph: a full graph and a reduced graph where contigs whose length is not greater than a given length threshold (default 100bp) are removed and every pair of their neighbours is connected through an edge. Then we should be able to insert back the discarded contigs into predicted plasmids.
 
-**TO DO [ANIKET/CEDRIC]**:  Complete the script [scripts/GFA_utils.py](scripts/GFA_utils.py) that does this reduction/expansion. There is quite some planning to do for these scripts as there are non-trivial decisions to make as to how we will implement these steps, the internal data structures and so on. We should actually think carefully about modifying the assembly graph.
+**TO DO? [ANIKET/CEDRIC]**:  Complete the script [scripts/GFA_utils.py](scripts/GFA_utils.py) that does this reduction/expansion. There is quite some planning to do for these scripts as there are non-trivial decisions to make as to how we will implement these steps, the internal data structures and so on. We should actually think carefully about modifying the assembly graph.
 
-## Experiments
+## Tools
 
-The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three or four classification tools:
+The short-read assembly graphs will be processed, using both the initial graph (and the reduced graph?), with the following tools, three or four classification tools:
 - <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC, installed, tested]**,
 - <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC, installed, tested]**,
 - <a href="https://github.com/Shamir-Lab/3CAC">3CAC (NO)</a> **[NO: designed for metagenomic assembly graphs]**,
