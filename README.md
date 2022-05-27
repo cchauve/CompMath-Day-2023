@@ -5,7 +5,7 @@ This repo contains the material and experiments for the plasmids paper of the AR
 
 The purpose of the paper is to analyze a large dataset of *E. faecalis* and *E. faecium* samples for which hybrid short-reads and long-reads assemblies will be provided.  
 
-The short-reads data were generated in 2017 using Illumina while the long-reads data were generated in 2021 usaing Oxford Nanopore.
+The short-reads data were generated in 2017 using Illumina while the long-reads data were generated in 2021 using Oxford Nanopore.
 
 The hybrid data and short-reads data were assembled using Unicycler. The hybrid data, that will be used as a proxy for ground truth, were polished using Pilon.
 
