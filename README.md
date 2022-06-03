@@ -5,7 +5,7 @@ This repo contains the material and experiments for the plasmids paper of the AR
 
 The purpose of the paper is to analyze a large dataset of *E. faecalis* and *E. faecium* samples for which hybrid short-reads and long-reads assemblies will be provided.  
 
-The short-reads data were generated in 2017 using Illumina while the long-reads data were generated in 2021 usaing Oxford Nanopore.
+The short-reads data were generated in 2017 using Illumina while the long-reads data were generated in 2021 using Oxford Nanopore.
 
 The hybrid data and short-reads data were assembled using Unicycler. The hybrid data, that will be used as a proxy for ground truth, were polished using Pilon.
 
@@ -30,11 +30,11 @@ From the contigs features, we will determine which ones are plasmid, which ones 
 
 For each short-reads assembly, we will consider two versions of the assembly graph: a full graph and a reduced graph where contigs whose length is not greater than a given length threshold (default 100bp) are removed and every pair of their neighbours is connected through an edge. Then we should be able to insert back the discarded contigs into predicted plasmids.
 
-**TO DO [ANIKET/CEDRIC]**:  Complete the script [scripts/GFA_utils.py](scripts/GFA_utils.py) that does this reduction/expansion. There is quite some planning to do for these scripts as there are non-trivial decisions to make as to how we will implement these steps, the internal data structures and so on. We should actually think carefully about modifying the assembly graph.
+**TO DO? [ANIKET/CEDRIC]**:  Complete the script [scripts/GFA_utils.py](scripts/GFA_utils.py) that does this reduction/expansion. There is quite some planning to do for these scripts as there are non-trivial decisions to make as to how we will implement these steps, the internal data structures and so on. We should actually think carefully about modifying the assembly graph.
 
-## Experiments
+## Tools
 
-The short-read assembly graphs will be processed, using both the initial graph and the reduced graph, with the following tools, three or four classification tools:
+The short-read assembly graphs will be processed, using both the initial graph (and the reduced graph?), with the following tools, three or four classification tools:
 - <a href="https://github.com/cchauve/plASgraph">plASgraph</a> **[CEDRIC, installed, tested]**,
 - <a href="https://github.com/Shamir-Lab/PlasClass">PlasClass</a> used with its default model **[CEDRIC, installed, tested]**,
 - <a href="https://github.com/Shamir-Lab/3CAC">3CAC (NO)</a> **[NO: designed for metagenomic assembly graphs]**,
@@ -44,8 +44,8 @@ and four or five binning tools:
 - <a href="https://github.com/cchauve/HyAsP">HyAsP</a> **[CEDRIC, installed, tested]**,
 - <a href="https://github.com/phac-nml/mob-suite">MOB-suite</a> **[HALEY/CEDRIC, not installed, mob_init fails, we can get the results from Haley]**,
 - <a href="https://github.com/cchauve/PlasBin">PlasBin</a> **[ANIKET, to install and test]** -- PlasBin should be modified to run in two versions, one that uses gene density and one that uses the plASgraph plasmid score instead --,
-- <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET, to install and test]** -- the issue with plasmidPAAdes is that it requires to re-assemble the reads.
-- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP (NO)</a> **[NO: requires to realign the reads to a FASTG assembly graph]**.
+- <a href="https://cab.spbu.ru/software/plasmid-spades/">plasmidSPAdes</a> **[ANIKET, to install and test]** -- the issue with plasmidSPAdes is that it requires to re-assemble the reads.
+- <a href="https://github.com/Shamir-Lab/SCAPP">SCAPP</a> **[CAVEAT: requires to realign the reads to a FASTG assembly graph]**.
 
 Moreover, the plasmids predicted by each method should be typed using MOB-typer **[ANIKET, to test]**.
 
@@ -55,4 +55,6 @@ The results will be evaluated using <a href="https://github.com/acme92/PlasEval"
 
 ## Remarks
 
-In order to ease analysis, we should decide of a format for plasmid bins and contig scores that would be used for input files of the analysis, and so each method should come with a script that reformats its output.
+In order to ease analysis, we should decide of a format for plasmid bins and contig scores that would be used for input files of the analysis, and so each method should come with a script that reformats its output.  
+
+Methodological suggestions: filter input graph to remove sure chromosomal contigs, post-process the results.
