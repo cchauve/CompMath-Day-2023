@@ -14,6 +14,12 @@
 
 `plasforest`: runs PlasForest. 2022-05-26: tested with success. 
 
-In each directory, the main script to run is `process_samples.sh`, that needs to be adjusted to replace the number of jobs in the array by the number of samples.
+`plasmidspades`: runs plasmidSPAdes. 2022-07-07: tested with success.
+
+In each directory (except plasmidspades), the main script to run is `process_samples.sh`, that needs to be adjusted to replace the number of jobs in the array by the number of samples.
 
 For a given sample `SAMPLE`, the results are in the directory `results/SAMPLE/`.
+
+For plasmidspades, the main scripts to run the tool are `process_Efaecalis.sh` and `process_Efaecium.sh` for the repsective species.
+
+The results for plasmidspades are in the directory `results/SPECIES/SAMPLE` for a given SPECIES and SAMPLE.
