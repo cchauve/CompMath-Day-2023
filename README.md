@@ -9,7 +9,7 @@ The short-reads data were generated in 2017 using Illumina while the long-reads 
 
 The hybrid data, that will be used as a proxy for ground truth, were polished using Pilon.
 
-The initial purpose of the work is to assess and compare the performances of several plasmids prediction methods. Potential foillow-up steps will include the analysis of the predicted plasmids.
+The initial purpose of the work is to assess and compare the performances of several plasmids prediction methods. Potential follow-up steps will include the analysis of the predicted plasmids.
 
 ## Data
 
