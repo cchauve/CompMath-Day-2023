@@ -1,4 +1,4 @@
-# ARETE Plamids Comparison Paper
+# ARETE Plasmids Comparison Paper
 ## Overview
 
 This repo contains the material and experiments for the plasmids paper of the ARETE grant.
@@ -7,13 +7,15 @@ The purpose of the paper is to analyze a large dataset of *E. faecalis* and *E. 
 
 The short-reads data were generated in 2017 using Illumina while the long-reads data were generated in 2021 using Oxford Nanopore.
 
-The hybrid data and short-reads data were assembled using Unicycler. The hybrid data, that will be used as a proxy for ground truth, were polished using Pilon.
+The hybrid data, that will be used as a proxy for ground truth, were polished using Pilon.
 
 The initial purpose of the work is to assess and compare the performances of several plasmids prediction methods. Potential foillow-up steps will include the analysis of the predicted plasmids.
 
 ## Data
 
-**TO DO [ANIKET]**: provide an overview of the data and metadata. 
+The dataset consists of 60 *E. faecalis* isolates and 71 *E. faecium* isolates. For each isolate, we have the short-reads and polished hybrid assemblies. The analysis of the hybrid assemblies is provided in 'doc/Hybrid_contig_comparison_summary.ipynb'. 
+
+For running, HyAsP as well as PlasBin, we require the Unicycler short read assemblies, which are available for all E. faecium isolates but only for 56 E. faecalis isolates.
 
 ## Data preparation
 
