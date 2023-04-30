@@ -32,7 +32,8 @@ has a collection of easy to read (but not easy to apply) papers called
 that contains many papers on this topic, each describing 10 simple rules
 relevant to achieve some specific goals.
 
-We recommand the following papers from this collection:
+We recommand the following papers from this collection:  
+
 - 
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">
 A Quick Guide to Organizing Computational Biology Projects
