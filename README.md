@@ -36,27 +36,27 @@ We recommand the following papers from this collection:
 - 
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">
 A Quick Guide to Organizing Computational Biology Projects
-</a>
+</a>  
 -
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285">
 Ten Simple Rules for Reproducible Computational Research
-</a>
+</a>  
 -
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097">
 Ten Simple Rules for Digital Data Storage
-</a>
+</a>  
 -
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385">
 Ten Simple Rules for a Computational Biologist’s Laboratory Notebook
-</a>
+</a>  
 -
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668">
 A Quick Introduction to Version Control with Git and GitHub
-</a>
+</a>  
 -
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">
 Ten Simple Rules for Taking Advantage of Git and GitHub
-</a>
+</a>  
 
 
 
