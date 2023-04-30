@@ -33,23 +33,11 @@ that contains many papers on this topic, each describing 10 simple rules
 relevant to achieve some specific goals.
 
 We recommand the following papers from this collection:  
-- Organization:  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">
-A Quick Guide to Organizing Computational Biology Projects
-</a>  
-- Reproducibility:  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285">
-Ten Simple Rules for Reproducible Computational Research
-</a>  
-- Data:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097">
-Ten Simple Rules for Digital Data Storage
-</a>  
-- Notebooks:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385">
-Ten Simple Rules for a Computational Biologist’s Laboratory Notebook
-</a>  
-- Git:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668">
-A Quick Introduction to Version Control with Git and GitHub
-</a>,  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">
-Ten Simple Rules for Taking Advantage of Git and GitHub
-</a>  
+- Organization:  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">A Quick Guide to Organizing Computational Biology Projects</a>  
+- Reproducibility:  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285">Ten Simple Rules for Reproducible Computational Research</a>  
+- Data:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005097">Ten Simple Rules for Digital Data Storage</a>  
+- Notebooks:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385">Ten Simple Rules for a Computational Biologist’s Laboratory Notebook</a>  
+- Git:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668">A Quick Introduction to Version Control with Git and GitHub</a>,  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">Ten Simple Rules for Taking Advantage of Git and GitHub</a>  
 
 
 
