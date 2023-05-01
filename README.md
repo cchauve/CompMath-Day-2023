@@ -49,11 +49,9 @@ the pathogens *E. faecalis* and *E. faecium*.
 **The precise details of this work are not important, as the goal of
 this repo is to illustrate github and Jupyter in such a project.**
 
-## Context
-
 The research project aims at evaluating the accuracy of various
 bioinformatics tools that analyse genomics data (genome assembly
-graph) of pathogens isolates to detect plasmids.
+graph) of pathogens isolates to detect plasmids (plasmid binning tools).
 
 The elements of this project that are relevant for this presentation
 are the following:
