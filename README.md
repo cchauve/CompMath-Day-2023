@@ -74,5 +74,4 @@ are the following:
   the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>
   using the <a href="https://docs.alliancecan.ca/wiki/Running_jobs">slurm scheduling system</a>.
 
-
-
+## Files organization
