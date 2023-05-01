@@ -60,8 +60,9 @@ are the following:
   For each sample we were provided by our collaborators with
   - a unique **identifier**, the ID of the sample sequencing data on the
     <a href="https://www.ncbi.nlm.nih.gov/sra">NCBI SRA</a> data repository;
-  - **assembly data** for each sample, in the form of two files, one in GFA format
-    and one in FASTA format;
+  - **assembly data** for each sample, in the form of two files, one in
+    <a href="http://gfa-spec.github.io/GFA-spec/GFA1.html">GFA</a> format
+    and one in <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/">FASTA format</a>;
   - a labelling of each contig in the assembly as **chromosome** or **plasmid**
     (the **ground truth** for the analysed samples).
 - We processed each sample with two plasmid binning tools (*HyAsP*, *MOB-recon*) and for each sample,
