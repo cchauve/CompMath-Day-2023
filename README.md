@@ -8,17 +8,17 @@ data-science research projects.
 
 The goal of the presentation is to introduce good practices and useful tools
 that will ensure that the work you do during your project is
-- understandable by you if you go back to it a few months after it was done;
+- understandable by you if you go back to it a few weeks/months after it was done;
 - understandable by other people than you (your supervisor, your collaborators,
   other members of the lab/team after you are gone, referees for a paper based
-  on your work, ...);
+  on your work, potential users of your code, ...);
 - reproducible by someone other than you (for example with different parameters),
 - ...
 
 Basically, you want that all the efforts you have put into your work
 result in something that will last beyond the very limited time
 of your internship, that you or someone else can take it later and
-understand it, improve it, criticize it, ...
+understand it, modify it, reuse it, ...
 
 
 ## Resources
@@ -39,9 +39,9 @@ We recommand the following papers from this collection:
 - Notebooks:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385">Ten Simple Rules for a Computational Biologist’s Laboratory Notebook</a>  
 - Git:   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668">A Quick Introduction to Version Control with Git and GitHub</a>,  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947">Ten Simple Rules for Taking Advantage of Git and GitHub</a>  
 
+## Project overview
 
-
-It is based on the github repo of a research project in progress (with
+This repo is based on the github repo of a research project in progress (with
 PhD student Aniket Mane) on the comparison of bioinformatics tools for
 the problem of plasmids binning, applied to a data set of genomes from
 the pathogens *E. faecalis* and *E. faecium*.
@@ -57,27 +57,18 @@ graph) of pathogens isolates to detect plasmids.
 
 The elements of this project that are relevant for this presentation
 are the following:
-- The **data** was composed of a set of **samples**, where for each we were provided with
+- The **data** was composed of a set of **samples**, each representing a bacterial pathogen isolate,
+  where for each sample we were provided by our collaborators with
   - a unique **identifier**, the ID of the sample sequencing data on the
-  <a href="https://www.ncbi.nlm.nih.gov/sra">NCBI SRA</a> data repository,
-  - an **assembly graph** file recording the assembly of the sequence data into **contigs**,
-  - a labelling of each contig in the assembly graph as **chromosome**, **plasmid**, **ambiguous**
-  (the **ground truth** for the analysed samples).
-- For each considered plasmid binning tool (*HyAsP*, *MOB-recon*, *PlasBin*, *plasmidSPAdes*)
-  - the tool was applied to analyse all samples,
-  - for each sample, an accuracy statistics (**F1**) was computed.
+    <a href="https://www.ncbi.nlm.nih.gov/sra">NCBI SRA</a> data repository;
+  - **assembly data** for each sample, in the form of two files, one in GFA format
+    and one in FASTA format;
+  - a labelling of each contig in the assembly as **chromosome** or **plasmid**
+    (the **ground truth** for the analysed samples).
+- We processed each sample with two plasmid binning tools (*HyAsP*, *MOB-recon*) and for each sample,
+  an accuracy statistics (**F1**) was computed.
 - The computations were conducted on a High-Performances Computing cluster,
   the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>.
 
-The goal of this presentation is to illustrate the following important aspects of such a project:
-- **Organize well your data, computations and results**:
-  Follow good practices to
-  - organize your data before you process them,
-  - process your data with various methods,
-  - organize the results of your computations.
 
-- **Know your data before you analyze it**:
-  never process data before you have spend time understanding it.
-
-- **Document your work** using Jupyter notebooks.
 
