@@ -75,3 +75,31 @@ are the following:
   using the <a href="https://docs.alliancecan.ca/wiki/Running_jobs">slurm scheduling system</a>.
 
 ## Files organization
+
+This presentation will involve files present on different systems:
+- all files, including large data files and results files, are on the cedar HPC systm;
+- documentation, code and summary files are versioned on github.
+
+The repo is cloned onto
+- cedar, where I run all computations and updates markdown and text files;
+- the <a href="https://sfu.syzygy.ca">Jupyter hub</a> of SFU that allows me
+  to work on the Jupyter notebooks.
+
+#### Remark. The data files and results files are generally quite large and would not
+be able to be versioned on github, or at the price of slowing down a lot updates.
+For example, the result of creating the database of plasmid genes required by HyAsP
+creates a FASTA file `NCBI_plasmid_genes_db.fasta` of 785Mb, which is too large for
+github that does not accept files above 100Mb.
+```
+ls -l results/2022-10-01_HyAsP_database_NCBI/
+total 501732
+-rw-r--r-- 1 chauvec def-chauvec    201272 May  1 08:19 create_database.log
+-rw-r--r-- 1 chauvec def-chauvec       605 May  1 08:21 create_database.sh
+-rw-r--r-- 1 chauvec def-chauvec        75 Apr 30 11:26 NCBI_blacklist.txt
+-rwxr-xr-x 1 chauvec def-chauvec 785685364 Apr 30 14:18 NCBI_plasmid_genes_db.fasta
+-rw-r--r-- 1 chauvec def-chauvec   4078759 Apr 30 18:39 NCBI_plasmid_genes_len.csv.gz
+-rw-r--r-- 1 chauvec def-chauvec    515971 Apr 30 11:26 NCBI_plasmids.csv.gz
+-rw-r--r-- 1 chauvec def-chauvec       244 May  1 08:24 README.txt
+```
+To the contrary, the gzipped summary file `NCBI_plasmid_genes_len.csv.gz` that recors
+the length of all sequences in the FASTA file is only 4Mb.
