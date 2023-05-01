@@ -85,7 +85,8 @@ The repo is cloned onto
 - the <a href="https://sfu.syzygy.ca">Jupyter hub</a> of SFU that allows me
   to work on the Jupyter notebooks.
 
-#### Remark. The data files and results files are generally quite large and would not
+#### Remark.
+The data files and results files are generally quite large and would not
 be able to be versioned on github, or at the price of slowing down a lot updates.
 For example, the result of creating the database of plasmid genes required by HyAsP
 creates a FASTA file `NCBI_plasmid_genes_db.fasta` of 785Mb, which is too large for
