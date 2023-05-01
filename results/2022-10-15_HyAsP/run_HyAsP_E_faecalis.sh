@@ -21,7 +21,7 @@ mkdir -p ${OUT_DIR}
 REF_DB=${REPO_HOME}/results/2022-10-01_HyAsP_database_NCBI/NCBI_plasmid_genes_db.fasta
 ## Sample assembly graph
 mkdir -p ${EXP_DIR}/tmp
-cp ${REPO_HOME}/data/2022-10-02/${SAMPLE}.gfa.gz ${EXP_DIR}/tmp/
+cp ${REPO_HOME}/data/2022-10-02_E_faecalis/${SAMPLE}.gfa.gz ${EXP_DIR}/tmp/
 gunzip ${EXP_DIR}/tmp/${SAMPLE}.gfa.gz
 GFA=${EXP_DIR}/tmp/${SAMPLE}.gfa
 

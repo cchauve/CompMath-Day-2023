@@ -11,7 +11,7 @@
 source ../../config.sh
 
 ## Sample ID
-SAMPLE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${REPO_HOME}/data/2022-10-13/E_faecium_samples.txt)
+SAMPLE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" ${REPO_HOME}/data/2022-10-13_E_faecium/E_faecium_samples.txt)
 ## Experiment and output directory
 EXP_DIR=${REPO_HOME}/results/2022-10-18_MOB-recon
 OUT_DIR=${EXP_DIR}/results/${SAMPLE}
@@ -20,9 +20,9 @@ mkdir -p ${OUT_DIR}
 # Preparing input
 ## Sample assembly contigs
 mkdir -p ${EXP_DIR}/tmp
-cp ${REPO_HOME}/data/2022-10-13/${SAMPLE}.fa.gz ${EXP_DIR}/tmp/
+cp ${REPO_HOME}/data/2022-10-13_E_faecium/${SAMPLE}.fa.gz ${EXP_DIR}/tmp/
 gunzip ${EXP_DIR}/tmp/${SAMPLE}.fa.gz
-FA=${EXP_DIR}/tmp/${SAMPLE}.scaffolds.fa
+FA=${EXP_DIR}/tmp/${SAMPLE}.fa
 
 # Running MOB-recon
 source ${TOOLS_DIR}/env_mobsuite/bin/activate

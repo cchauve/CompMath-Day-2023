@@ -10,3 +10,7 @@ parameterized with an input file.
 
 Once all slurm processes are over, the results are checked and summarized with
 ./summarize.sh
+
+This creates the files E_faecalis_HyAsP_F1.csv and E_faecium_HyAsP_F1.csv
+that contain the F1 value (accuracy measure) for each sample. leaving te F1 field
+empty if no plasmid was predicted.
