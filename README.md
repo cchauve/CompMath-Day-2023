@@ -62,13 +62,14 @@ are the following:
     <a href="https://www.ncbi.nlm.nih.gov/sra">NCBI SRA</a> data repository;
   - **assembly data** for each sample, in the form of two files, one in
     <a href="http://gfa-spec.github.io/GFA-spec/GFA1.html">GFA</a> format
-    and one in <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/">FASTA format</a>;
+    and one in <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/">FASTA</a> format;
   - a labelling of each contig in the assembly as **chromosome** or **plasmid**
     (the **ground truth** for the analysed samples).
 - We processed each sample with two plasmid binning tools (*HyAsP*, *MOB-recon*) and for each sample,
   an accuracy statistics (**F1**) was computed.
 - The computations were conducted on a High-Performances Computing cluster,
-  the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>.
+  the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>
+  using the <a hrf="https://docs.alliancecan.ca/wiki/Running_jobs">slurm scheduling system</a>.
 
 
 
