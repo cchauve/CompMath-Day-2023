@@ -104,3 +104,5 @@ total 501732
 ```
 To the contrary, the gzipped summary file `NCBI_plasmid_genes_len.csv.gz` that recors
 the length of all sequences in the FASTA file is only 4Mb.
+This will allow me to version this file and to analyze it in the lab notebook
+(Lab Notebook)[./results/JOURNAL.ipynb].
