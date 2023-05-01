@@ -55,8 +55,9 @@ graph) of pathogens isolates to detect plasmids (plasmid binning tools).
 
 The elements of this project that are relevant for this presentation
 are the following:
-- The **data** was composed of a set of **samples**, each representing a bacterial pathogen isolate,
-  where for each sample we were provided by our collaborators with
+- The **data** was composed of two sets of **samples**, each representing a bacterial
+  pathogen isolate, either from the *E faecalis* genus or the *E. faecium* genus.
+  For each sample we were provided by our collaborators with
   - a unique **identifier**, the ID of the sample sequencing data on the
     <a href="https://www.ncbi.nlm.nih.gov/sra">NCBI SRA</a> data repository;
   - **assembly data** for each sample, in the form of two files, one in GFA format
