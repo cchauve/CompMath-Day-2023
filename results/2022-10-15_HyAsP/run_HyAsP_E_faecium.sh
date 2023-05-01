@@ -18,7 +18,7 @@ mkdir -p ${OUT_DIR}
 
 # Preparing input
 ## Reference database
-REF_DB=${REPO_HOME}/results/2022-10-01_HyAsP_database_NCBI/NCBI_plasmid_genes_db.fasta
+REF_DB=${REPO_HOME}/results/2022-10-14_HyAsP_database_NCBI/NCBI_plasmid_genes_db.fasta
 ## Sample assembly graph
 mkdir -p ${EXP_DIR}/tmp
 cp ${REPO_HOME}/data/2022-10-13_E_faecium/${SAMPLE}.gfa.gz ${EXP_DIR}/tmp/
