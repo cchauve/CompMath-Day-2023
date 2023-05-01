@@ -69,7 +69,7 @@ are the following:
   an accuracy statistics (**F1**) was computed.
 - The computations were conducted on a High-Performances Computing cluster,
   the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>
-  using the <a hrf="https://docs.alliancecan.ca/wiki/Running_jobs">slurm scheduling system</a>.
+  using the <a href="https://docs.alliancecan.ca/wiki/Running_jobs">slurm scheduling system</a>.
 
 
 
