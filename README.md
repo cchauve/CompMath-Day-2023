@@ -65,7 +65,9 @@ are the following:
     and one in <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/">FASTA</a> format;
   - a labelling of each contig in the assembly as **chromosome** or **plasmid**
     (the **ground truth** for the analysed samples).
-- We processed each sample with two plasmid binning tools (*HyAsP*, *MOB-recon*) and for each sample,
+- We processed each sample with two plasmid binning tools
+  (<a href="https://github.com/cchauve/HyAsP">HyAsP</a>,
+  <a hrf="https://github.com/phac-nml/mob-suite">MOB-recon</a>) and for each sample,
   an accuracy statistics (**F1**) was computed.
 - The computations were conducted on a High-Performances Computing cluster,
   the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>
