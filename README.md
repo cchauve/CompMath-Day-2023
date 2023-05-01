@@ -67,8 +67,9 @@ are the following:
     (the **ground truth** for the analysed samples).
 - We processed each sample with two plasmid binning tools
   (<a href="https://github.com/cchauve/HyAsP">HyAsP</a>,
-  <a hrf="https://github.com/phac-nml/mob-suite">MOB-recon</a>) and for each sample,
-  an accuracy statistics (**F1**) was computed.
+  <a href="https://github.com/phac-nml/mob-suite">MOB-recon</a>) and for each sample,
+  an accuracy statistics (<a href="https://en.wikipedia.org/wiki/Precision_and_recall">F1 score</a>)
+  was computed.
 - The computations were conducted on a High-Performances Computing cluster,
   the cluster *cedar* of the <a href="https://alliancecan.ca">Digital research Alliance of Canada</a>
   using the <a href="https://docs.alliancecan.ca/wiki/Running_jobs">slurm scheduling system</a>.
