@@ -134,7 +134,20 @@ as in her, or in R).
   is written following good programming standards, with comments, explicit variable names, 
   avoiding code duplication as much as possible, ... A notebook is a program.
 
-## Run your experiments
-- describe the three experiments
-- show the notebook, more graphics
-- illustrate merging a branch with the last one.
+## Run experiments and document them
+
+The project involves running two tools on our data.
+For one tool, HyAsP, a database neds to be created. 
+I make it a specific experiment, in `results/2022-10-14_HyAsP_database_NCBI/`.
+I create a specific section in the [Lab Notebook](./results/JOURNAL.ipynb) that
+provides a high-level overview.
+
+The second experiment runs HyAsP and generates an F1 accuracy measure on each sample.
+Again, after having generated (on cedar) the accuracy summary, I analyse 
+in the [Lab Notebook](./results/JOURNAL.ipynb).
+
+The last experiment is to run MOB-recon. 
+Let's consider this has just been done:
+- in the main branch of the repo the journal notebook ends at the HyAsP experiment,
+- on the jupyter hub, I have created a branch mobrecon_exp that contains an expanded version of the notebook.
+When I am satisfied with the added section to the notebook, I can merge the branch to the main.
