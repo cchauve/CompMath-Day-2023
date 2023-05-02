@@ -77,13 +77,10 @@ are the following:
 ## Files organization
 
 This presentation will involve files present on different systems:
-- all files, including large data files and results files, are on the cedar HPC systm;
-- documentation, code and summary files are versioned on github.
-
-The repo is cloned onto
-- cedar, where I run all computations and updates markdown and text files;
-- the <a href="https://sfu.syzygy.ca">Jupyter hub</a> of SFU that allows me
-  to work on the Jupyter notebooks.
+- all files, including large data files and results files, are on the cedar HPC system;
+- documentation, code and summary files are versioned on github, and cloned on the 
+  <a href="https://sfu.syzygy.ca">Jupyter hub</a> of SFU that allows me to work on the 
+  Jupyter notebooks.
 
 #### Remark.
 The data files and results files are generally quite large and would not
@@ -108,9 +105,34 @@ This will allow me to version this file and to analyze it in the lab notebook
 [Lab Notebook](./results/JOURNAL.ipynb).
 
 ## Let's start: know your data
-- introduce the idea of looking carefully at the data
-- illustrate with the notebook
-- introduce the notion and technique of notebooks
+
+We start with the first phase of a data-driven project: the data. 
+We received data from our collaborators. 
+Before doing any processing of these data, I spend a fair amount of time
+looking at these data to make sure I understand everything about them, 
+that there are no inconsistencies or unexpected features.
+
+Our data are composed of two data sets, each coming as a set of genome 
+assemblies, together with a labeling file that we will use to compute the
+accuracy of the methods we aill apply to process these data. 
+
+In the [Lab Notebook](./results/JOURNAL.ipynb), the first sections are dedicated
+to this data analysis.
+
+A <a href="https://jupyter.org/"Jupyte notebook</a> is a file that allows to 
+combine together text, images, tables, and code (most often either in python
+as in her, or in R). 
+
+**Remarks.** 
+- The preliminary data analysis done in the [Lab Notebook](./results/JOURNAL.ipynb) 
+  does make use of the summary files for the data, no the data itself, that can not be 
+  uploaded on github as it is too large. This shows the importance of generating summary 
+  files that are used for a high-level analysis. 
+- Also worth noting, pieces of code that will be reused are not written directly in the 
+  notebook, to improve readibility, but in a separate file [journal_utils.py](./results/journal_utils.py). 
+- Last as in any coding project, the code 
+  is written following good programming standards, with comments, explicit variable names, 
+  avoiding code duplication as much as possible, ... A notebook is a program.
 
 ## Run your experiments
 - describe the three experiments
