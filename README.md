@@ -63,8 +63,8 @@ are the following:
   - **assembly data** for each sample, in the form of two files, one in
     <a href="http://gfa-spec.github.io/GFA-spec/GFA1.html">GFA</a> format
     and one in <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/">FASTA</a> format;
-  - a labelling of each contig in the assembly as **chromosome** or **plasmid**
-    (the **ground truth** for the analysed samples).
+  - a labelling of contigs in hybrid assemblies as **chromosome** or **plasmid**
+    that will be used to determine the **ground truth** for the analysed samples.
 - We processed each sample with two plasmid binning tools
   (<a href="https://github.com/cchauve/HyAsP">HyAsP</a>,
   <a href="https://github.com/phac-nml/mob-suite">MOB-recon</a>) and for each sample,
@@ -106,3 +106,13 @@ To the contrary, the gzipped summary file `NCBI_plasmid_genes_len.csv.gz` that r
 the length of all sequences in the FASTA file is only 4Mb.
 This will allow me to version this file and to analyze it in the lab notebook
 [Lab Notebook](./results/JOURNAL.ipynb).
+
+## Let's start: know your data
+- introduce the idea of looking carefully at the data
+- illustrate with the notebook
+- introduce the notion and technique of notebooks
+
+## Run your experiments
+- describe the three experiments
+- show the notebook, more graphics
+- illustrate merging a branch with the last one.
