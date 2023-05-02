@@ -119,7 +119,7 @@ accuracy of the methods we aill apply to process these data.
 In the [Lab Notebook](./results/JOURNAL.ipynb), the first sections are dedicated
 to this data analysis.
 
-A <a href="https://jupyter.org/"Jupyte notebook</a> is a file that allows to 
+A <a href="https://jupyter.org/">Jupyter notebook</a> is a file that allows to 
 combine together text, images, tables, and code (most often either in python
 as in her, or in R). 
 
