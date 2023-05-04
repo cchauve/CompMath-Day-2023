@@ -13,7 +13,7 @@ that will ensure that the work you do during your project is
   other members of the lab/team after you are gone, referees for a paper based
   on your work, potential users of your code, ...);
 - reproducible by someone other than you (for example with different parameters),
-- ....
+- ...
 
 Basically, you want that all the efforts you have put into your work
 result in something that will last beyond the very limited time
